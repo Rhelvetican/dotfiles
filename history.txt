@@ -1,0 +1,898 @@
+odpy
+cls
+odpy
+explorer cmd.exe start_local_server.bat
+explorer cmd start_local_server.bat
+odpy
+explorer cmd start_local_server.bat
+n
+explorer cmd start_local_server.bat
+echo 'hi'
+cls
+odpy
+./start_local_server.bat
+start_local_server.bat
+source start_local_server.bat
+cls
+ls
+ls | where type == file
+^start_local_server.bat
+cls
+nu start.nu
+cls
+open start.nu
+cls
+cargo install coreutils
+cls
+python3 start.py
+cls
+python3 start.py
+odpy
+python3 start.py
+odpy
+python3 start.py
+cls
+python3 start.py
+start cmd.exe
+odpy 
+python3 start.py
+odpy 
+python3 start.py
+odpy 
+python3 start.py
+odpy 
+python3 start.py
+python3 -m pip install e
+scopp update --all
+scoop update --all
+scoop cleanup --all
+odpy
+nu update.nu
+python3 -v
+cls
+7*24*60*60
+eval
+echo (7*60*24*60)
+echo 7*60*24*60
+cls
+def eval [] { 7*24*60*60 }
+echo eval
+echo eval []
+def eval [] { 7*24*60*60 } | echo eval
+start pwsh.exe
+odpy
+cargo install cargo-wix
+cls
+nu update.nu
+$nu.config
+$nu.config-path
+cargo install tokei
+tokei
+cargo install just
+cargo init rs
+winget install --source winget --exact --id JohnMacFarlane.Pandoc
+cls
+cargo run
+cd rs
+cargo run
+cargo fmt
+cargo run
+rm -r rs/
+git clone https://github.com/Rhelvetican/shunting-yard.git
+cargo run
+cd shunting-yard
+cargo run
+cargo build -r
+cd shunting-yard
+cargo fmt
+cd shunting-yard
+cargo run
+cargo fmt
+cargo run 
+cd shunting-yard
+cargo run 
+cargo fmt
+cd shunting-yard
+cargo fmt
+winget install --id Typst.Typst
+code -h
+code -v
+cd shunting-yard
+cargo run
+cd shunting-yard
+cargo run
+cls
+cargo run
+ss
+\
+cd shunting-yard
+cd rpn
+cd shunting-yard
+cargo run
+p 
+cargo run
+21
+cls
+cargo run
+cargo run a + 2
+cargo run
+a
+cls
+cargo build -r
+cargo run
+cargo fmt
+cargo build -r
+nu update.nu
+ls | where type == file
+ls | where type == dir
+cls
+cd C:C:\Users\ASUS\Downloads\
+cd C:\Users\ASUS\Downloads\
+ls
+npm install png2icns -g
+npm fund
+png2icns rr.icns rr.png
+scoop update --all
+scoop cleanup --all
+odpy
+git config
+git config -l
+git config --global user.email=rhelvetican@gmail.com
+git config -l
+git config --global user.email rhelvetican@gmail.com
+git config -l
+cls
+cargo install nu
+cls
+nu -v
+cd F:/Rust
+cargo init data-struct
+code -h
+cargo run
+cd F:/Rust
+cargo init roulette
+cd roulette
+cls
+cargo install exa
+cls
+cargo install exa
+cargo init rbot .
+cargo init rbot ./
+cargo init ./
+cargo init bot
+cd bot
+cargo init ybot_fmt
+cd F:/Rust
+cargo init password
+cd password
+cargo run -- 12
+cargo run
+cargo run -- -l 12 -n 
+cargo run -- -h
+cargo run -- -v
+cargo run -- -V
+cls
+cargo build -r
+cargo fmt
+git add -A
+nu update.nu
+cls
+nu update.nu
+cls
+scoop install lsd
+scoop install zoxide
+cls
+lsd
+lsd -h
+lsd --config-file
+scoop update --all
+scoop cleanup --all
+suc
+cls
+suc
+cargo fmt
+cargo build -r
+cargo run -- -h
+cargo run -- -V
+cargo run -- -l 12 -n 
+cargo run -- -l 12 -n -s
+cargo run -- -l 32 -n -s
+cargo build -r
+suc
+cargo install --force cargo-make
+cls
+cargo make my-task
+cargo fmt
+cargo clean
+cargo make my-task
+cargo install create-tauri-app --locked
+cls
+nu update.nu
+suc
+cls
+cd F:/dumb
+cd F:/Rust
+cargo init stuffs
+cd stuffs
+cd F:/Rust
+cargo init notecrypt
+cd notecrypt
+cd F:/Rust
+cargo init math2
+cd math2
+cd F:/Rust
+open
+open .
+open /
+open .
+ls
+lsd
+rm -h
+ls | where type == dir | each { rm $in.name } | null
+ls
+ls | where type == dir | each { rm -r $in.name } | null
+ls
+ls | where type == dir | each { rm -r $in.name }
+ls
+cls
+coreutils
+coreutils ls
+mv
+ls
+lsd
+python3 setup.py
+cls
+rustup target --list
+rustup target -h
+rustup target list
+irm https://deno.land/install.ps1 | iex
+cls
+nu update.nu
+up
+cls
+git submodule update
+nu update.nu
+rm -r tmp/
+rm -r tmp\
+cls
+rm -r tmp\
+cargo install cargo-feature --locked
+cls
+cargo features serde
+cargo feature serde
+cd F:/DoctorateRS-1
+cargo feature serde
+cd F:/DoctorateRS
+cargo feature reqwest
+cargo fmt
+scoop install fnm
+cd F:/Rhodium
+suc
+git remote
+git remote remove origin
+git remote -h
+git remote set-url --add remote https://github.com/DoctorateRS/ARKSEED
+git remote add remote https://github.com/DoctorateRS/ARKSEED
+cls
+cd F:/
+rm -r Rhodium
+cls
+rustup update
+winget install --id=Microsoft.VisualStudio.2022.BuildTools -e
+cls
+git bash curl -fsSL https://bun.sh/install | bash
+wsl2
+wsl
+wsl -v
+cls
+wsl -h
+wsl --help
+wsl --list
+wsl --install
+cls
+wsl --list --online
+cargo fmt
+cargo build -r
+git push origin 1.0.1
+cd F:/
+cargo init guess
+cd guess
+cargo fmt
+cargo run
+cargo fmt
+cd F:/
+cargo init pvz2-tools
+cd pvz2-tools
+nu update.nu
+ruff
+ruff format
+ruff format .
+scoop install extras/neovide
+scoop install neovim
+scoop config aria2-warning-enabled false
+scoop install vcredist2022
+scoop update vcredist2022
+suc
+cls
+neovide
+irm https://deno.land/install.ps1 | iex
+suc
+cls
+suc
+cls
+odpy
+nu update.nu
+cls
+python3 -m ensurepip --upgrade
+cls
+python3 -m ensurepip --upgrade
+nu update.nu
+scoop install python
+python3
+Python
+suc
+python3 setup.py
+python3 -v
+cls
+nu update.nu
+cd F:/Rust
+cargo init fun
+cd fun
+wsgl
+nu update.nu
+cls
+suc
+cd F:/
+cd Rust
+cargo init exp
+cd exp
+winget install starship
+$nu.env-path
+cd C:\Users\ASUS\AppData\Roaming\nushell\
+vsc
+cls
+cd 
+def eval [] { 7*24*60*60 } | echo eval
+cls
+cls
+cd
+odpy
+cls
+git add -A
+git commit -m "hi"
+git push
+cls
+mkdir -p ~/.config && touch ~/.config/starship.toml
+mkdir -p ~/.config ; touch ~/.config/starship.toml
+cls
+cd ~
+ls
+cd.config
+cd .config
+ls
+touch starship.toml
+code starship.toml
+cd .config
+$STARSHIP_CONFIG
+$nu.STARSHIP_CONFIG
+suc
+cls
+nu update.nu
+npm install -D tailwindcss
+npm install -g npm
+cls
+npm fund
+npm i bootstrap@5.3.2
+clang++
+clang++ --version
+suc
+cls
+npm i -g typescript
+npm fund
+npm i parcel
+npm i -D parcel
+cls
+deno
+deno -u
+deno --help
+deno upgrade
+cls
+starship
+starship config
+starship config --help
+npm cache clean --force
+node --help
+node --uninstall
+scoop uninstall node
+npm
+starship
+starship explain
+starship config
+$ENV:STARSHIP_CONFIG = "$HOME\example\non\default\path\starship.toml"
+cls
+vsc
+ls
+starship config
+cls
+hi
+scoop uninstall starship
+winget uninstall starship
+scoop install starship
+cls
+>
+C:\Users\ASUS\scoop\apps\starship\current\
+cls
+starship.nu
+cls
+ls
+rm -r a/ b/ node_modules/
+ls
+rm package-lock.json package.json var.txt
+git init .
+git add -A
+git commit -m "hi"
+git tag add
+ls
+cargo init .
+starship config
+starship preset pastel-powerline -o ~/.config/starship.toml
+cd ~/.config/
+ls
+vsc
+cls
+cargo install yazi
+scoop install yazi unar jq poppler fd ripgrep fzf zoxide
+scoop install jid
+cls
+scoop install node
+scoop install nodejs
+npm
+npm whoami
+cls\
+cls
+odpy
+git add -A
+git commit -m "hi"
+nu update.nu
+git pull
+nu update.nu
+git push
+suc
+pwd
+hx
+hx -v
+hx --help
+hx --health
+hx -V
+cd F:/
+mkdir TS
+cd TS
+cargo-tauri --info
+cargo-tauri --help
+deno info
+deno run src/main.ts
+npm i @types/node
+npm i -g npm
+npm -V
+npm i jsonfile
+deno install express
+deno help
+deno init
+cd server
+deno init
+deno run server.ts
+cd F:/
+cargo init new-year
+vsc new-year
+vsc --no-sandbox new-year
+cd ../new-year
+rustup update stable
+cls
+vsc .
+rustup list
+rustup toolchain list
+rustup toolchain
+cargo run
+cls
+cd ~/
+ls
+cd Pictures
+ls
+cd Lunacy
+cd "Page 1"
+pwd
+vsc
+lun
+cd ..
+rm -r "Page 1"
+ls
+cd F:/
+cargo init raylib5-sys
+rm -r raylib5-sys
+cargo init --help
+cargo init --lib --edition 2024
+cargo init --lib --edition 2024 --name raylib5-sys
+cargo init raylib5-sys --lib --edition 2024
+cd raylib5-sys
+vcpkg
+vcpkg install raylib:x64-windows
+cls
+git submodule add https://github.com/raysan5/raylib
+pwd
+git submodule remove raylib
+cargo build -r
+$ENV:OUT_DIR
+cargo build -r
+cargo publish
+cargo login
+cargo publish
+suc
+cargo publish
+cargo build -r
+cargo publish
+suc
+cd F:/
+cargo init orbia
+cargo run
+cd F:/orbia
+cargo build -r
+cargo run -r
+cargo run
+cargo build -r
+cargo run
+cargo run -r
+cd F:/orbia
+ls
+cargo run
+cargo run -r
+cd output
+ls
+nu cleanup.nu
+cd ..
+nu cleanup.nu
+cls
+cd output
+ls | where type == file
+ls | where type == file | each {|file| rm file}
+ls | where type == file | each {|file| rm $file}
+cls
+ls | where type == file | each {|file| rm $file.name }
+ls
+exa
+lsd
+lsd -h
+lsd --help
+cd %APPDATA%
+cd ..
+ls
+cd target
+ls
+cd release
+ls
+./orbia.exe
+ls
+cd ../..
+nu cleanup.nu
+nu build.nu
+cargo run -r
+nu cleanup.nu
+cargo run -r
+nu build.nu
+cargo fix --all
+cargo fix --all --release
+nu build.nu
+cargo run -r
+scoop install zoxide
+$nu.env-path
+cd ~
+cls
+ls
+zoxide init nushell | save -f ~/.zoxide.nu
+zoxide init nushell | save -f ~/.cache/zoxide/.zoxide.nu
+cls
+z ~
+cls
+zoxide --help
+nushell
+nu -V
+nu --hell
+nu --help
+nu -v
+z ~
+z ..
+zi ..
+cls
+suc
+scoop cleanup --all
+cls
+suc
+z ..
+cd ~
+cd F:/orbia
+cd F:/Rust
+z F:/Rust
+z F:/orbia
+z ..
+cls
+z orbia
+suc
+irm https://astral.sh/uv/install.ps1 | iex
+suc
+cls
+irm https://astral.sh/uv/install.ps1 | iex
+rm -r env/
+rm mods.json
+uv venv
+uv pip install -r requirements.txt
+odpy
+uv pip install -r requirements.txt
+if (./.venv | path exists) {echo "hi"}
+if ('./.venv' | path exists) {echo "hi"}
+nu build.nu
+cargo run -r
+z E:/ODPy
+cd ~
+z odpy
+cls
+ls
+z odpy
+cls
+git add -A
+git commit -m "upstream"
+git push
+git push --force
+ruff
+ruff -v
+ruff -V
+uv pip install ruff
+odpy
+cls
+uv pip install ruff
+pip install ruff
+ruff -V
+pip3 install ruff
+pip3 install ruff --update
+pip3 update ruff
+pip3 --help
+pip3 download ruff
+pip3 install ruff 
+pip3 uninstall ruff 
+pip3 install ruff 
+ruff -V
+cls
+ruff -V
+ruff check .
+ruff check --fix
+ruff check
+ruff check --fix
+cls
+ruff --help
+ruff format .
+ruff linter
+ruff clean
+cd odpy-ver-mod
+uv venv
+uv pip install UnityPy
+uv pip install bson
+uv pip install ZipFile
+uv pip install zipfile
+cls
+odpy
+uv pip sync
+uv pip sync .
+uv pip sync --hep
+uv pip sync --help
+uv pip sync requirements.txt
+uv pip install -r requirements.txt
+uv pip install flask
+odpy
+cls
+ls
+overlay use ./.venv/Scripts/activate.nu
+python server/app.py
+python3 server/app.py
+python -V
+python3 -V
+cls
+uv --help
+uv venv --help
+uv venv -p 3.12
+uv venv -p 3.12.2
+uv venv -p 'C:\Users\ASUS\scoop\apps\python\3.12.2\python.exe'
+cls
+starship preset pastel-powerline -o ~/.config/starship.toml
+cd ~/.config/
+vsc .
+odpy
+ruff linter
+starship preset nerd-font-symbols -o ~/.config/starship.toml
+cls
+overlay use ./.venv/Scripts/activate.nu
+cls
+python3 -V
+odpy
+suc
+cls
+echo hi
+echo suc
+echo "hi"; echo 3
+cls
+starship preset no-nerd-font -o ~/.config/starship.toml
+odpy
+cls
+echo $PROFILE
+z C:\Users\ASUS\Documents\PowerShell
+vsc .
+cargo run -r
+cls
+cargo run -r
+cargo add rand
+cls
+suc
+z F
+z F:\
+cls
+cargo init revancify-rs
+z revancify-rs
+z F:\
+cargo init tictactoe
+cargo run
+cls
+cargo run
+cargo clippy
+cargo build -r
+cargo publish
+z tictactoe
+cargo run -r
+cargo publish
+z tictactoe
+cls
+exa
+cls
+suc
+z tictactoe
+cargo run -r
+exit
+suc
+starship -V
+cls
+git add -A
+nu update.nu
+cargo publish
+scoop install main/conan
+cls
+z F:\
+conan --help
+conan create --help
+conan create helloworld
+mkdir helloworld
+z helloworld
+conan create
+conan create .
+conan new .
+conan new cmake_lib -d name=helloworld -d version=0.1.0
+vsc .
+clang++ --help
+cls
+uv venv -p 'C:\Users\ASUS\scoop\apps\python\3.12.2\python.exe'
+uv pip install conan
+uv pip install -r requirements.txt
+cls
+cargo install tauri-cli
+cls
+z f
+z w
+z F:\
+cargo tauri init
+z RVX-Builder
+ls
+cls
+iwr https://get.pnpm.io/install.ps1 -useb | iex
+cls
+pnpm --help
+z F:\
+mkdir hellosvelte
+cd hellosvelte
+pnpm create svelte
+pnpm install
+git init && git add -A && git commit -m "Initial Commit"
+git init; git add -A; git commit -m "Initial Commit"
+pnpm add -D @sveltejs/adapter-static
+pnpm add -D @tauri-apps/cli
+pnpm tauri init
+git init; git add -A; git commit -m "Next Commit"
+vsc .
+pnpm add -D @vite
+pnpm add -D vite
+deno fmt
+z svelte
+rm .
+z ..
+rm hellosvelte
+rm -r hellosvelte
+cls
+node
+cls
+z ..
+mkdir hello-tauri
+z hello-tauri
+git clone https://github.com/marc2332/tauri-deno-starter .
+vsc .
+deno fmt
+cargo tauri build
+adb devices
+cls
+adb shell pm grant com.pittvandewitt.wavelett android.permission.DUMP
+adb shell pm grant com.pittvandewitt.wavelet android.permission.DUMP
+cls
+nu update.nu
+cargo install hackernews_tui --locked
+hackernews_tui
+nu config
+nu --help
+htui
+nu update.nu
+cls
+overlay use ./.venv/Scripts/activate.nu
+cls
+z F:/
+cargo init calculator
+z calculator
+git add -A
+git commit -m "initial commit"
+rustup default stable-msvc
+cls
+pip install --user pipx
+pipx --ensurepath
+python -m pipx --ensurepath
+python -m pipx ensurepath
+pipx install gvsbuilds
+pipx install gvsbuild
+gvsbuild build gtk4\
+gvsbuild build gtk4
+rm -r C:\gtk-build\
+gvsbuild build gtk4
+cls
+pkg-config --modversion gtk4
+cls
+cargo add gtk4 --rename gtk --features v4_12
+cargo run
+cls
+cargo run
+cls
+z ~/.cargo
+ls
+z config
+z cargo
+ls
+touch config.toml
+cargo c
+z gtk
+z calc
+cargo c
+cargo rr
+z calc
+cargo r
+cls
+z calc
+cargo r
+z calc
+cargo r
+cls
+z calc
+cargo r
+cargo b -r
+start .
+cargo rr
+vsc .
+cargo rr
+git pull
+git commit -m "next gen tooling"
+cls
+git pull
+git pull --force
+git rm server/
+git rm -r server/
+z calc
+z s
+git init .
