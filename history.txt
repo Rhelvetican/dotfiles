@@ -921,3 +921,25 @@ cls
 git add -A
 z nushell
 cls
+git add -A
+git config --global --add safe.directory .
+z nushell
+git commit -m "next gen tooling"
+use ./nupm/
+ls nupm/
+ls nupm/modules.nupm
+ls nupm/modules/nupm
+use nupm/modules/nupm
+cls
+nupm install --force --path .\nupm\modules\nupm
+$env.PATH
+$env.Path'<\n><\n>'
+$env.Path
+$env.XDH_DATA_HOME
+$env.XDG_DATA_HOME
+cls
+$nu
+nupm
+cls
+z nushell
+git commit -ma "next gen tooling"
