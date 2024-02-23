@@ -896,3 +896,28 @@ git rm -r server/
 z calc
 z s
 git init .
+git add -A
+ls
+git commit -m "next gen tooling"
+nupm
+$home
+$env.home
+cls
+$nu.home-path
+$nu.config-path
+$nu.env-path
+$nu.path
+cd nupm
+use .
+z ..
+use nupm/
+cls
+use nupm/
+use nupm/mod.nu
+use ./nupm/mod.nu
+use ./nupm/\
+use ./nupm/
+cls
+git add -A
+z nushell
+cls

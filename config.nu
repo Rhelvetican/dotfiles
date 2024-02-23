@@ -765,7 +765,7 @@ alias odpy = cd E:/ODPy
 alias vsc = code -r --no-sandbox
 alias suc = nu C:\Users\ASUS\AppData\Roaming\nushell\update_scoop.nu
 alias up = nu E:/ODPy/update.nu
-alias lun = cd "C:\\Users\\ASUS\\Pictures\\Lunacy\\Page 1"
+alias lun = z "C:\\Users\\ASUS\\Pictures\\Lunacy\\Page 1"
 alias htui = hackernews_tui
 
 use ~/.cache/starship/init.nu
