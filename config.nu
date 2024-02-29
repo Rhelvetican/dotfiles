@@ -770,3 +770,5 @@ alias htui = hackernews_tui
 
 use ~/.cache/starship/init.nu
 source ~/.cache/zoxide/.zoxide.nu
+
+z ~

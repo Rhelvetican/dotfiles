@@ -111,7 +111,6 @@ $env.Path = (
         | uniq
 )
 
-mkdir ~/.cache/starship
 overlay use C:\Users\ASUS\AppData\Roaming\nushell\nupm\modules\nupm\
 starship init nu | save -f ~/.cache/starship/init.nu
 zoxide init nushell | save -f ~/.cache/zoxide/.zoxide.nu
