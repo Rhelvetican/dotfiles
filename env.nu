@@ -85,6 +85,8 @@ $env.ENV_CONVERSIONS = {
     }
 }
 
+$env.NUPM_HOME = ($nu.default-config-dir | path join "nupm")
+
 # Directories to search for scripts when calling source or use
 # The default for this is $nu.default-config-dir/scripts
 $env.NU_LIB_DIRS = [
@@ -98,18 +100,18 @@ $env.NU_PLUGIN_DIRS = [
     ($nu.default-config-dir | path join 'plugins') # add <nushell-config-dir>/plugins
 ]
 
-$env.NUPM_HOME = ($nu.default-config-dir | path join "nupm")
+
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
 # $env.PATH = ($env.PATH | split row (char esep) | prepend '/some/path')
-$env.PATH = (
-    $env.PATH
+$env.Path = (
+    $env.Path
         | split row (char esep)
-        | ....
         | prepend ($env.NUPM_HOME | path join "scripts")
         | uniq
 )
 
 mkdir ~/.cache/starship
+overlay use C:\Users\ASUS\AppData\Roaming\nushell\nupm\modules\nupm\
 starship init nu | save -f ~/.cache/starship/init.nu
 zoxide init nushell | save -f ~/.cache/zoxide/.zoxide.nu

@@ -943,3 +943,313 @@ nupm
 cls
 z nushell
 git commit -ma "next gen tooling"
+git commit -a -m "next gen tooling"
+vsc .
+nupm
+cls
+overlay use nupm/
+overlay use nupm/modules/nupm
+cls
+nupm -h
+nupm
+z odpy
+cls
+if ('./.git' | path exists) {echo "hi"}
+if ('./.gi' | path exists) {echo "hi"} else {echo "hello"}
+suc
+cls
+z odpy
+cls
+lsd
+git commit -a -m "next gen tooling"
+chcp
+cargo rr
+z orb
+start .
+cls
+start .
+cls
+cd $env.APP_DATA
+z $env.APPDATA
+cls
+z alacritty
+z alacritty\
+cls
+mkdir alacritty\
+cls
+z alacritty\
+touch alacritty.toml
+vsc alacritty.toml
+$nu.path
+cls
+suc
+z alacritty\
+z alacritty
+cls
+vsc alacritty.toml
+cls
+z alacritty
+vsc alacritty.toml
+z alacritty
+alacritty
+alacritty -V
+alacritty --help
+alacritty -t Alacritty
+z alacritty
+vsc alacritty.toml
+z alacritty
+vsc alacritty.toml
+cls
+suc
+echo "hi from alacritty and nushell"
+cls
+z odpy
+cls
+ls
+z .git
+ls
+starhip
+starship --help
+starship prompt
+cls
+z --help
+zi --help
+ls
+rm Powder.exe
+cat id.txt
+echo id.txt
+echo "id.txt"
+echo "./id.txt"
+c;s
+cls
+gh
+gh project --list
+gh project list
+gh auth login
+cls
+gh auth login
+cls
+z odpy
+gh
+gh repo
+gh repo Rhelvetican/ODPy
+gh actions
+gh workflow run
+gh run list --workflow=update.yml
+cls
+z odpy
+z we
+ls
+vsc powershell.config.json
+ls
+git amend
+git commit --amend
+python generate_gacha.py
+suc
+scoop update
+git config --global --add safe.directory C:/Users/ASUS/scoop/buckets
+scoop update
+git config --global --add safe.directory C:/Users/ASUS/scoop/buckets/
+scoop update
+git config --global --add safe.directory C:/Users/ASUS/scoop/buckets/versions
+scoop update
+cls
+hx --health
+z hs
+z E:/
+ls
+z F:/
+ls
+cls
+z alacritty
+vsc alacritty.toml
+cls
+z ODPy-mysql
+ls
+cls
+git init .
+git commit -am "Initial Commit"
+git commit -a -m "Initial Commit"
+git add -A
+git commit -a -m "Initial Commit"
+vsc .
+suc
+curl
+z odpy
+ls
+rm package-lock.json package.json
+git add -A
+git commit -a -m "e"
+git push
+ls
+fzf
+cls
+scoop install bat
+cargo install --locked eza
+cargo install eza
+cargo install eza --force
+eza
+rustc
+z project
+z F:/
+cargo init project
+z project
+git add -A
+git commit -a -m "e"
+vsc .
+rustc src/main.rs -o output/asm.s
+rustc src/main.rs --emit asm -o output/asm.s
+rustc src/main.rs -v --emit asm -o output/asm.s
+rustc src/main.rs -C opt-level=3 -C codegen-units=1 --emit asm -o output/asm.s
+rustc src/main.rs -C opt-level=3 -C codegen-units=1 -C lto="fat" --emit asm -o output/asm.s
+rustc src/main.rs -C opt-level=3 -C codegen-units=1 -C lto="fat" -C strip="symbols" --emit asm -o output/asm.s
+echo "Don't care if you burn us down,<\n>we're used to marching on scorched ground<\n>like a phoenix,<\n>cry and rise up from the ash!<\n><\n>Swipe at displays as my eyes start to fade and slowly turn to glaze astray.<\n>Colors go dull as they can't take or distract all the mindless pain away.<\n>Seems like you relate.<\n>Who plucked the feathers on your back?<\n><\n>You are so done,<\n>it's reflected in your eye.<\n>You are fed up<\n>and I think I might know why.<\n><\n>Take your turn, it's your time, ignite and take it back.<\n>It's a fight, to survive, when life is all you have.<\n>Let your heart blaze through,<\n>through all this field!<\n><\n>Don't care if you burn us down,<\n>we're used to marching on scorched ground<\n>like a phoenix,<\n>cry and rise up from the ash!<\n>Even if you hurt us now,<\n>this revenge just won't burn out<\n>like the phoenix,<\n>you can't burn us down!<\n><\n>Let's! Burn! Us! Down! [2]<\n>Let's! Burn! Us! Down!<\n><\n>They took it all;<\n>you start over again.<\n>They act real small<\n>as they control all your plans.<\n>Take your turn, it's your time, ignite and take it back.<\n>It's a fight, to survive, when life is all you have.<\n>Let your heart blaze through,<\n>through all this field!<\n><\n>Don't care if you burn us down,<\n>we're used to marching on scorched ground<\n>like a phoenix,<\n>cry and rise up from the ash!<\n>Even if you hurt us now,<\n>this revenge just won't burn out<\n>like the phoenix,<\n>you can't burn us down!<\n><\n>We are the idea<\n>that flickers inside.<\n>We are the purpose<\n>to hopeless lives!<\n>To hopeless lives!<\n>Can't burn us out!<\n>Can't burn us out!<\n><\n>Don't care if you burn us down,<\n>we're used to marching on scorched ground<\n>like a phoenix,<\n>cry and rise up from the ash!<\n>Even if you hurt us now,<\n>this revenge just won't burn out<\n>like the phoenix,<\n>you can't burn us down!<\n><\n>Don't care if you burn us down!" > F:/song.txt
+z F:/
+touch song.txt
+hx --health
+hx song.txt
+bat song.txt
+cls
+bat song.txt
+bat --help
+bat -l
+bat -L rust
+z orb
+bat src/main.rs
+z F:/
+https://github.com/WalshyDev/Discord-Spotify-RPC.git
+git clone https://github.com/WalshyDev/Discord-Spotify-RPC.git
+z Discord-Spotify-RPC
+npm install
+npm audit fix
+npm config set msvs_version 2022
+npm -V
+node -V
+node --version
+cls
+ls
+suc
+jdk
+$env.path
+$env.Path
+z F:/
+z rbot
+ls
+cargo add google-sheets4
+ls
+z F:/
+cls
+z odpy
+nu update.nu > log.txt
+starship config
+cls
+z starship
+z ~
+ls
+z .config
+ls
+vsc .
+starship preset nerd-font -o ~/.config/starship.toml
+starship preset gruvbox-rainbow -o ~/.config/starship.toml
+cls
+vsc .
+z odpy
+bat log.txt
+ls
+alacritty --config
+alacritty --config-file
+cls
+z alacritty
+ls
+vsc .
+scoop install git-cliff
+git-cliff
+z odpy
+cls
+z starship
+z .config
+vsc .
+cls
+z odpy
+git-cliff
+cls
+touch cliff.toml
+vsc .
+git cliff --current
+vsc .
+cls
+scoop install wezterm
+cls
+winget install wez.wezterm
+cls
+ls
+wezterm --help
+wezterm --config-file
+z odpy
+python3 server/app.py
+z odpy
+python3 server/app.py
+z odpy
+text
+suc
+cls
+z F:/
+cargo init segfault
+z segfault
+vsc .
+z ~
+mkdir .bin
+z .bin
+curl https://storage.googleapis.com/git-repo-downloads/repo
+ls
+cls
+curl https://storage.googleapis.com/git-repo-downloads/repo > repo.py
+curl --help
+curl https://storage.googleapis.com/git-repo-downloads/repo -o repo.py
+cls
+ls
+start .
+uv pip install uv
+uv --help
+uv -V
+suc
+pip install uv
+pip install uv --force
+uv -V
+z odpy
+cls
+git branch --help
+z odpy
+vsc .
+uv pip install msgspec
+uv pip install -r requirements.txt
+python3 server/app.py
+overlay use ./.venv/Scripts/activate.nu
+python3 server/app.py
+pip install msgpec
+pip install msgspec
+pip3 install msgspec
+python3 -m pip install msgspec
+cls
+overlay hide
+cls
+z odpy
+git pull
+suc
+cls
+z nushell
+ls
+bat env.nu
+z nushell
+cls
+z 
+z F:/
+ls
+rm -r calculator
+cargo init essence
+z essence
+suc
+z nushell
+git add -A
+git config --global --add safe.directory C:/Users/ASUS/AppData/Roaming/nushell
+git add -A
