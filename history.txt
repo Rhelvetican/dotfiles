@@ -1255,3 +1255,106 @@ git config --global --add safe.directory C:/Users/ASUS/AppData/Roaming/nushell
 git add -A
 git commit -a -m "e"
 vsc .
+git commit -a -m "e"
+reset
+cls
+z ~
+z odpy
+cls
+git diff 0.7.3 0.8-alpha2 > 0.8-alpha2.patch
+git diff 0.7.3 0.8-alpha2 -- 0.8-alpha2.patch
+bat 0.8-alpha2.patch
+git diff 0.7.3 0.8-alpha2 | save ./diff.patch
+git tag add
+git tag
+z odpy
+cls
+git tag
+git tag add
+git tag -a 0.8-alpha3 -m "Positional"
+git push origin --tags
+nu generate_patch.nu
+git diff 0.8-alpha2 0.8-alpha3 | save ./diff.patch
+rm ./diff.patch
+git diff 0.8-alpha2 0.8-alpha3 | save ./diff.patch
+z odpy
+git diff 0.1 0.8-alpha3 | save -f ~/full.patch
+git diff 0.1.0 0.8-alpha3 | save -f ~/full.patch
+git tag --list
+git diff 0.1-alt 0.8-alpha3 | save -f ~/full.patch
+start .
+git diff 0.1-alt 0.8-alpha3 | save -f ./full.patch
+suc
+scoop install main/deno-lint
+scoop install java/graalvm22-jdk17
+z essence
+cargo run
+z essence
+cls
+cargo run
+fastfetch
+neofetch
+cls
+scoop install neofetch
+neofetch
+scoop install git
+scoop install fastfetch
+fastfetch
+cls
+z odpy
+git diff 0.6.0 0.8-alpha3 | save -f ./extend.patch
+git diff 0.6 0.8-alpha3 | save -f ./extend.patch
+git diff 0.7.0 0.8-alpha3 | save -f ./extend.patch
+cls
+ls
+suc
+hx
+cls
+starship preset nerd-font-symbols -o ~/.config/starship.toml
+cls
+z odpy
+alacritty --config-file
+alacritty --config padding = { x = 32, y = 32 }
+cls
+alacritty --help
+cls
+alacritty -o window.padding={x=16,y=0}
+alacritty -h
+z alacritty
+vsc .
+cls
+echo hi
+cls
+z alacritty
+ls
+cls
+z odpy
+git diff 0.7.3 0.8-alpha4 | save -f ./update_0-8-alpha4.patch
+z gs
+ls
+ls | sort-by "size"
+rm full.patch
+rustc -V
+cls
+ls
+fastfetch
+z F:/
+cls
+cargo init bin_tree
+z bin_tree
+suc
+z odpy
+cls
+git commit -a -m "e"
+git diff 0.7.1 0.8-alpha4 | save -f ./update.patch
+start .
+suc
+fastfetch
+cls
+git diff 0.8-alpha4 current | save -f ./fix.patch
+git pull
+z odpy
+git pull
+git diff 0.8-alpha4 current | save -f ./fix.patch
+git diff 0.8-alpha4 origin | save -f ./fix.patch
+git diff 39c7d97bc2e72de2b09bf2b8868cd9fa0b819e03 main | save -f ./fix.patch
