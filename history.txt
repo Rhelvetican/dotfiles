@@ -1358,3 +1358,818 @@ git pull
 git diff 0.8-alpha4 current | save -f ./fix.patch
 git diff 0.8-alpha4 origin | save -f ./fix.patch
 git diff 39c7d97bc2e72de2b09bf2b8868cd9fa0b819e03 main | save -f ./fix.patch
+gl
+z odpy
+gl
+z nushell
+vsc .
+z odpy
+ruff format
+git commit -a -m "e"
+git reset 8502070d8cb4b0c4a043b098bb936338532f5923 -- server\app.py
+git reset 78055c8459cb200b4c2d9760f7b7b71308f9434f -- server\app.py
+git commit -a -m "revert"
+ruff format --help
+ruff format --exclude server/app.py
+git commit -a -m "revise"
+git push origin --tags
+git push origin
+cls
+git diff 78055c8459cb200b4c2d9760f7b7b71308f9434f main | save -f ./update.patch
+z odpy
+git diff 78055c8459cb200b4c2d9760f7b7b71308f9434f main | save -f ./update.patch
+z odpy
+cls
+git log
+git tag --list
+git diff 0.7.1 main -p -o test.patch
+git diff 0.7.1 main -p --minimal test.patch
+git diff 0.7.1 main --minimal -p test.patch
+git diff 0.7.1 main --minimal -p --raw
+ls
+cls
+git diff 0.7.1 main --minimal -p | save -f ./upgrade.patch
+git format-patch ./upgrade.patch | save -f ./up_fmt.patch
+git format-patch ./upgrade.patch -o /patches | save -f ./up_fmt.patch
+git format-patch ./upgrade.patch -o /patches
+git format-patch ./upgrade.patch -o ./patches
+git log
+git format-patch -1 c40250849e923e3e475b21a58850b882cfae46a6 -o patches/
+ls
+z patches
+ls
+git format-patch --minimal 0.7.1 c40250849e923e3e475b21a58850b882cfae46a6 -o patches/
+start .
+rm -r patches
+z ..
+git format-patch --minimal 0.7.1..c40250849e923e3e475b21a58850b882cfae46a6 -o patches/
+tar
+tar -cvvf 0.7.1_HEAD.tar.gz patches/
+tar -cvvf 0.7.1_HEAD.tar.gz ./patches/
+tar -cvvf 0.7.1_HEAD.tar.gz ./patch/
+ls
+tar -czvf 0.7.1_HEAD.tar.gz ./patch/
+tar -czvf 0.7.1_HEAD.tar.gz patch/
+cls
+tar -czvf 0.7.1_HEAD.tar.gz
+tar -czvf 0.7.1_HEAD.tar.gz .
+start .
+tar -czvf 0.7.1_HEAD.tar.gz ./patches/
+z patches
+tar -czvf 0.7.1_HEAD.tar.gz .
+rm patches.zip
+rm 0.7.1_HEAD.tar.gz
+hx ../.gitignore
+hx
+cls
+git commit -a -m "WebSTD"
+git push origin
+git format-patch --minimal 0.7.1..HEAD -o patches/
+7z -V
+7z --version
+7z --help
+7z a patches/ patches.zip
+7z a patches/ 
+7z obj.zip
+7z e obj.zip
+7z e
+cls
+7z
+7z l
+7z l patches
+cls
+7z e patches
+7z a patches/ patches
+z ..
+cls
+start .
+restart
+reset
+cls
+z odpy
+gfp 0.7.1..MAIN /patches
+gfp 0.7.1..MAIN patches/
+ls
+z patches
+ls
+z ..
+gfp --minimal 0.7.1..MAIN patches/
+gfp --minimal 0.7.0..MAIN patches/
+git format-patch --minimal 0.7.0..MAIN patches/
+git format-patch --verbose --minimal 0.7.0..MAIN patches/
+git format-patch --minimal 0.7.0..MAIN patches/
+rm -r patches
+git format-patch --minimal 0.7.0..MAIN patches/
+git format-patch --minimal 0.7.0..MAIN -o patches/
+z odpy
+nu update.nu
+ls
+hx update.nu
+nu update.nu
+z odpy
+cls
+nu update.nu
+git format-patch --minimal a5d02caa5260fa36b9af47d44e62973cd1658792..MAIN -o patches/
+z odpy
+file
+z F:/
+rm -r DoctorateRS
+cargo init DoctorateRS
+rm -r DoctorateRS
+cargo init doctorate_rs
+z doctorate_rs
+vsc .
+cls
+z doctorate_rs
+git remote add origin git@github.com:DoctorateRS/doc-rs.git
+git branch -M main
+git push -u origin main
+git remote add origin https://github.com/DoctorateRS/doc-rs.git
+cls
+git push -u origin main
+git remote remove origin
+git remote add origin https://github.com/DoctorateRS/doc-rs.git
+git push -u origin main
+cargo add tracing
+z doctorate_rs
+cargo add tracing
+suc
+alacritty -o working_directory=~
+alacritty -o working_directory="~"
+alacritty -o working_directory="C:/"
+alacritty -o working_directory="<\n>C:/<\n>"
+cs
+cls
+z alacritty
+vsc .
+z fs
+cls
+ls
+z doctorate_rs
+vsc .
+cargo run
+git format-patch --minimal 1dc6d8378e6a3800078954cd55c7903c6325e420..MAIN -o patches/
+uv venv
+cls
+uv venv -p 'C:\Users\ASUS\scoop\apps\python\3.12.2\python.exe'
+uv pip install requests
+z F:/
+git clone https://github.com/DoctorateRS/.github
+cls
+z .github
+vsc .
+z doctorate_rs
+git commit -a -m "config"
+git push -u origin main
+ls
+cls
+cargo run
+z odpy
+z doctorate_rs
+z f
+z F:/
+cls
+cargo init bubble_sort
+z bubble_sort
+cargo fix --all --release
+git commit -a -m "config"
+cargo fix --all --release
+cargo run
+z doctorate_rs
+cargo run
+cargo add constcat
+z doctorate_rs
+git add -A
+git commit -a -m "config"
+git push
+git format-patch --minimal MAIN -o patches/
+git format-patch --minimal 1dc6d8378e6a3800078954cd55c7903c6325e420..MAIN -o patches/
+z doctorate_rs
+git tag add 0.0.1
+git tag add '0.0.1'
+git tag add
+cls
+git tag --list
+git tag 0.0.1
+git tag --list
+git tag --remove add
+git tag -d add
+git push
+git tag push
+git tag -d push
+git push -u origin main
+git push --tags
+cargo run
+curl https://ak-conf.hypergryph.com/config/prod/announce_meta/Android
+curl https://ak.hypergryph.com/protocol/service
+curl https://ak-conf.hypergryph.com/app/v1/config
+curl https://ak.hypergryph.com/app/v1/config
+cls
+cargo run
+clippy fix
+cargo clippy --fix -D
+cargo clippy --fix
+cargo b -r
+cargo package -r
+cargo package --help
+cargo package --offline --target-dir packaged/
+cargo package --offline --allow-dirty --target-dir packaged/
+cargo package --offline --allow-dirty --release --target-dir packaged/
+cargo package --offline --allow-dirty --target-dir packaged/
+cargo install cargo-release
+cargo publish --offline --target-dir packaged/
+cargo package --help
+cargo package --offline --allow-dirty --target-dir packaged/
+cargo run
+nu update.nu
+z doctorate_rs
+nu update.nu
+rm -r tmp/
+z data
+mkdir excel/
+z ..
+nu update.nu
+z F:/
+git clone https://github.com/DoctorateRS/public-data.git
+z public-data
+touch README.md
+touch LICENSE
+git add -A
+git commit -a -m "initial commit"
+git push
+cargo run
+z ../ARKSEED
+git add -A
+git commit -a -m "upgrade"
+git push
+git push --force
+z public-data
+cls
+git add -A
+git push
+ls
+z .github
+ls
+z workflows
+ls
+bat update.yml
+cls
+z ../..
+git pull
+git push --force
+git commit -a -m "upgrade"
+git push
+z doctorate_rs
+git push --tags
+z doctorate_rs
+cargo package --offline --allow-dirty --target-dir packaged/
+git push --tags
+curl -XGET https://ak-conf.hypergryph.com/config/prod/announce_meta/Android/preannouncement.meta.json
+curl -XGET https://ak-conf.hypergryph.com/config/prod/announce_meta/Android/announcement.meta.json
+cargo run
+z doctorate_rs
+git add -A
+git commit -m "endpoint"
+git push
+cargo run
+suc
+cls
+exit
+z odpy
+nu update.nu
+cls
+z odpy
+git add -A
+git commit -m "lucent arrowhead"
+git push
+z odpy
+vsc .
+z doctorate_rs
+git fetch
+git remote --list
+git remote 
+git remote origin
+git remote set-url origin https://github.com/DoctorateRS/DoctorateRS.git
+cls
+git push
+python3 update_activity.py
+z doctorate_rs
+overlay use f:/doctorate_rs/.venv/Scripts/activate.nu
+z odpy
+overlay use f:/doctorate_rs/.venv/Scripts/activate.nu
+overlay use f:/odpy/.venv/Scripts/activate.nu
+cls
+overlay use f:/ODPy/.venv/Scripts/activate.nu
+deactivate
+overlay use f:/ODPy/.venv/Scripts/activate.nu
+ls
+overlay use f:/ODPy/.venv/Scripts/activate.nu
+z .venv
+ls
+z Scripts
+ls
+overlay use activate.nu
+z ../..
+curl http://127.0.0.1:8443/crisisV2/getinfo
+curl http://127.0.0.1:8443/
+cls
+deactivate
+curl -XGET http://127.0.0.1:8443/config/prod/official/Android/version
+cls
+cargo run
+z odpy
+suc
+scoop uninstall mitmproxy
+scoop uninstall cinny
+scoop uninstall dark
+scoop uninstall mongodb mongosh
+scoop --help
+scoop cache -h
+scoop cache rn -a
+scoop cache rm -a
+z odpy
+git commit -m "lucent arrowhead"
+git add -A
+git commit -m "lucent arrowhead"
+git push
+z doctorate_rs
+git commit -m "lucent arrowhead"
+git push
+suc
+overlay use f:/doctorate_rs/.venv/Scripts/activate.nu
+z odpy
+python3 start.py
+python3 startfrida.py
+adb start-server
+platform-tools\adb.exe start-server
+adb kill-server
+platform-tools\adb.exe start-server
+python3 fridahook.py
+z odpy
+python3 fridahook.py
+python3 generate_gacha.py
+cls
+python3 generate_gacha.py
+python3 test.py
+pip install uv
+pip install uv --upgrade
+ls
+z F:/\
+git clone https://github.com/wfrwgrlc/ODPY.git
+vsc ODPY
+git remot --list
+git remote --list
+git remote
+git remote remove origin
+git remote remove upstream
+git remote add upstream https://github.com/wfrwgrlc/ODPY
+git format-patch --minimal 88d357065bacffe23f0ba6a9c6a308a3af530897..MAIN -o patches/
+git format-patch --minimal 88d357065bacffe23f0ba6a9c6a308a3af530897..MAIN
+git format-patch --minimal 6dae2a1e990c8f369efe62d8f30e3e68c512b553..MAIN
+git format-patch --minimal
+git format-patch --minimal 6dae2a1e990c8f369efe62d8f30e3e68c512b553
+git remote
+git remote set-url origin https://github.com/Rhelvetican/ODPY-1.git
+z ..
+touch oxygen
+z oxygen
+rm oxygen
+mkdir oxygen ; z oxygen
+git init .
+scoop install onefetch
+cls
+z doctorate_rs
+onefetch
+git fetch
+git pull
+z ..
+z F:/
+scoop install nvim
+scoop install neovim
+scoop update neovim
+cls
+nvim
+cls
+scoop install lazygit
+nvim --help
+nvim --clean
+cls
+mv $env.LOCALAPPDATA/nvim $env.LOCALAPPDATA/nvim.bak
+mv $env.LOCALAPPDATA\nvim $env.LOCALAPPDATA\nvim.bak
+z $env.LOCALAPPDATA
+ls
+z nvim
+ls
+z ..
+rm -r nvim
+git clone https://github.com/LazyVim/starter.git nvim/
+rm -r nvim/.git
+rm -r nvim-data
+cls
+nvim
+cls
+rm -r nvim-data
+z appdata
+z $env.localappdata
+z $env.LOCALAPPDATA
+rm -r nvim-data
+rm -r nvim
+git clone https://github.com/LazyVim/starter nvim/
+nvim
+cls
+z nvim
+pwd
+z ~
+z nvim
+z ..
+rm -r Nvim
+cls
+z $env.LOCALAPPDATA
+z nvim
+vsc .
+nvim
+cls
+z F:/
+nvim
+cls
+hx --grammar fetch
+python generate_gacha.py
+z server/
+python ../generate_gacha.py
+python server/gacha_gen.py
+z ..
+python server/gacha_gen.py
+z F:/
+cls
+cargo init rsproj
+z rsproj
+llvm
+lld
+cls
+z .cargo
+ls
+vsc .
+cargo install cargo-machete
+lld
+lld-link
+cls
+z doctorate_rs
+cargo build -r
+cargo fix --bin "doc-rs"
+cargo build -r
+suc
+z doctorate_rs
+z starship
+cls
+z $env.LOCALAPPDATA
+ls
+z ..
+z..
+z ..
+clw
+cls
+ls
+rm -r .VSCodium
+z starship
+ls
+z ../.config
+vsc .
+onefetch
+z odpy
+onefetch
+git fetch
+onefetch
+curl -X GET https://software.download.prss.microsoft.com/dbazure/Win11_23H2_English_x64v2.iso?t=732a3967-82a9-4d20-a1ec-411e7c6bc6e3&P1=1710147796&P2=601&P3=2&P4=BrhmZYuhpWSBvww0T5ktGGlXcZzXKwH6szhGNc%2fZw%2f0C2V0%2bOJEvhyWw7JhbXt5fD%2fDoUu%2fQBlhnJRybU7hDDioXEX62X9XBSQMaKrJ9itkqVht35FrZJ7RFpS%2fwYc2YWQYItgRey%2fws6457B1kYQdQqXjGmlu0TPhJKc9srvhja06CT%2bdjFWk5ibKkGAED8YTfHP61SfKVqUDgz7H413qne0O1tP1q4u2LP25o1HarkOe51yBWu%2fDnX0nfOJMeB3uE%2fIcrX7ZLaySJiCXg1Lxp4Pqre2mT5ASqBXg6DkWYQHvwhPG0kTkX8O6Qj%2fOaf6DB%2bgtBTYCPcVf5d6gM3jg%3d%3d | save -f ~/here.txt
+z F:/
+cargo init types
+z types
+cargo run
+suc
+discord
+cls
+z c:/
+ls
+z msys64
+ls
+cargo run
+version
+tee
+tee --help
+1..900 | tee { each { print } } | math sum | wrap sum
+scoop install games/ferium
+ferium
+suc
+scoop uninstall bazel
+nvim
+cls
+z odpy
+git format-patch --minimal 0.8-alpha4..MAIN
+git tag 0.9.0-alpha4
+git push
+git push --tags
+git format-patch --minimal 0.9.0-alpha1..MAIN -o patches/\
+suc
+cls
+rustc -V
+rustc -V --verbose
+git -V
+cls
+git --version
+suc
+pip install uv --upgrade
+scoop install wireshark
+z C:/Users/ASUS/scoop/apps/wireshark/current/
+ls
+./npcap-installer.exe
+cls
+suc
+z odpy
+nvim
+cls
+suc
+aria2c --help
+aria2c --help magnet
+man
+aria2c magnet:?xt=urn:btih:52C17CF6A9145FFC266622CD7DEA84860DB8A2FF&dn=Oxygen%20Not%20Included%20v597172&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce
+ls
+cls
+mkdir Torrent
+z Torrent
+aria2c magnet:?xt=urn:btih:52C17CF6A9145FFC266622CD7DEA84860DB8A2FF&dn=Oxygen%20Not%20Included%20v597172&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.popcorn-tracker.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce
+ls
+aria2c --help
+aria2c -x 16
+aria2c -h
+aria2c -d=./Torrent/ -x=16 --file-allocation=falloc magnet:?xt=urn:btih:5fe9b5264d8409e0aca64dd4f89a5cee7eaf2b3a&dn=%E3%80%8Egirlcelly%E3%80%8F%20%5B240225%5D%20%5B%E6%A2%85%E9%BA%BB%E5%91%823D%5D%20FRIENDS%20GAME&tr=http%3A%2F%2Fsukebei.tracker.wf%3A8888%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+aria2c -d=./Torrent/ -x=15 --file-allocation=falloc magnet:?xt=urn:btih:5fe9b5264d8409e0aca64dd4f89a5cee7eaf2b3a&dn=%E3%80%8Egirlcelly%E3%80%8F%20%5B240225%5D%20%5B%E6%A2%85%E9%BA%BB%E5%91%823D%5D%20FRIENDS%20GAME&tr=http%3A%2F%2Fsukebei.tracker.wf%3A8888%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce
+z odpy
+git pull
+nu update.nu
+cargo update
+cargo install --locked bacon
+bacon
+z doctorate_rs
+cls
+bacon init
+bacon
+cls
+suc
+z Downloads
+z C:/Users/ASUS/Download
+z C:/Users/ASUS/Downloads
+cls
+ls
+ffmpeg -i m_sys_ccs_v2_2_loop.mp3 ccb2_loop.ogg
+ls
+ffmpeg -stream_loop -1 -i ccb2_loop.ogg -t "1:00:50.000" -codec:a "flac" underdawn.flac
+ls
+ffmpeg -stream_loop -1 -i ccb2_loop.ogg -t "1:00:50.000" -codec:a "ogg" underdawn.ogg
+ffmpeg -stream_loop -1 -i ccb2_loop.ogg -t "1:00:50.000" underdawn.ogg
+ls
+rm underdawn.ogg
+ffmpeg -stream_loop -1 -i ccb2_loop.ogg -t "1:00:50.000" -codec:a "ogg" underdawn.ogg
+ffmpeg -stream_loop -1 -i ccb2_loop.ogg -t "1:00:50.000" -codec:a "opus" underdawn.opus
+ffmpeg -stream_loop -strict -2 -1 -i ccb2_loop.ogg -t "1:00:50.000" -codec:a "opus" underdawn.opus
+ffmpeg -stream_loop -1 -i ccb2_loop.ogg -t "1:00:50.000" -strict -2 -codec:a "opus" underdawn.opus
+ls
+rm underdawn.flac
+ffmpeg -stream_loop -1 -i ccb2_loop.ogg -t "30:25.000" -c:a libopus underdawn.opus
+ffmpeg -stream_loop -1 -i ccb2_loop.ogg -t "30:25.000" -c:a libopus underdawn30.opus
+scoop install opus-tools tageditor
+scoop uninstall opus-tools
+z Download
+ls
+rm underdawn.opus
+rm underdawn30.opus
+ffmpeg -i ccb2_loop.ogg 2>&1 | grep 'Duration: '
+ffmpeg -i 'ccb2_loop.ogg' 2>&1 | grep 'Duration: '
+ffmpeg -i 'ccb2_loop.ogg' out+err | grep 'Duration: '
+ffmpeg -stream_loop -1 -i ccb2_loop.ogg -t "1:01:22.000" -c:a libopus Underdawn.opus
+ls
+cls
+cargo install --git https://github.com/dimensionhq/fleet fleet-rs
+cls
+gitui
+lazygit
+cls
+z odpy
+lazygit
+scoop install gitui
+z odpy
+gitui
+git format-patch --minimal 6329066c4d03dbe55e6925999ee6dd98daebd89e..9c38232a8185504fdef2c7493f6a48828db6d712 -o patches/
+git format-patch --minimal 0.9.0-alpha4..0.9.0-alpha5 -o patches/
+gitui
+z odpy
+cls
+z doctorate_rs
+git add -A
+git commit -m "lucent arrowhead"
+git fetch
+git pull
+git push
+suc
+z public
+start .
+git commit -m "add python"
+cargo install crabz
+scoop install ouch
+suc
+cargo install cargo-release
+cargo install cargo-release --force
+cargo install cargo-deps
+z doctorate_rs
+scoop install graphviz
+cargo deps | dots -Tpng > graph.png
+cargo deps | dot -Tpng > graph.png
+cargo deps | dot -Tpng | save -f graph.png
+ls
+start .
+z doctorate_rs
+vsc .
+z doctorate_rs
+ls
+nu deps_graphs.nu
+nvim
+z doctorate_rs
+vsc .
+z doctorate_rs
+cargo release
+cargo release --help
+cargo release version patch
+cargo release version patch 2
+cargo release version patch 0.0.3
+git tag 0.0.4
+git push --tags
+suc
+z --help
+z c
+cargo build -r
+z st
+z py
+suc
+z doctorate_rs
+cargo run
+cargo build
+.\target\release\doc-rs.exe
+./target/release/doc-rs.exe
+z ./target/release/
+doc-rs.exe
+./doc-rs.exe
+ls
+doc-rs.exe
+cls
+target\release\doctorate_rs.exe
+doctorate_rs.exe
+z ../debug
+ls
+doc-rs.exe
+./doc-rs.exe
+z F:/
+cargo init rsvancify
+z rsvancify
+vsc .
+bacon init
+bacon
+cargo run
+rustup target add wasm32-wasi
+suc
+scoop install scoop install nerd-fonts/0xProto-NF-Propo
+scoop install nerd-fonts/0xProto-NF-Propo
+scoop install nerd-fonts/CommitMono-NF-Propo
+cls
+z F:/
+cargo init pixelizer
+z pixelizer
+git add -A
+git commit -m "init"
+cargo run
+z pixelizer
+cargo build -r
+cargo rr
+gitui
+cls
+cargo rr
+cargo build -r
+suc
+scoop install delta
+z ~
+z .gitconfig
+ls
+z scoop
+ls
+z persist
+ls
+z ..
+z apps
+ls
+z git
+ls
+z current
+ls
+z etc
+ls
+z ..
+start .
+z ~
+z ..
+z ~
+cls
+touch .gitconfig
+vsc .gitconfig
+z odpy
+delta server/app.py server/constants.py
+cls
+z ~
+vsc .gitconfig
+scoop install less
+cls
+z ~
+vsc .gitconfig
+delta --show-theme
+delta --diff-so-fancy --show-config
+suc
+z pixelizer
+vsc .
+cargo build -r
+cargo rr
+cargo build -r
+cargo rr
+cargo build -r
+cargo rr
+cargo build -r
+git tag 1.0.0
+git push --tags
+cargo rr
+git tag 1.0.1
+git push --tags
+cargo build -r
+git push --tags
+git fetch
+git pull
+git push --tags
+git tag 1.0.1-hotfix
+git push --tags
+cls
+cargo build -r
+suc
+rustup update 
+rustup update rust-analyzer
+rustup update stable rust-analyzer
+cls
+rustup help
+cargo rr
+z types
+cargo rr
+z scoop
+ls
+rm -r cache
+mkdir cache
+z ~
+cls
+z noise
+z F:/
+ls
+git clone https://github.com/Rhelvetican/noise-generator
+z noise-generator
+vsc .
+cargo release version minor 0.5.0
+cargo release version minor
+cargo release version minor --execute
+git add -A
+git commit -m "bump minor version"
+cargo run
+git push --tags
+cargo build -r
+cargo update patch 
+z noise-generator
+cargo release version patch --execute
+git commit -m "bump patch version"
+git add -A
+git commit -m "bump patch version"
+git push
+git tag 0.5.1
+git push --tags
+z noise-generator
+cargo rr
+ls
+start .
+cargo rr
+suc
+scoop install fx
+z types
+cargo rr
+cargo init . --lib
+z ..
+rm -r types
+z F:/
+rm -r types
+cls
+cargo init --help
+cargo init strmath --lib --edition 2021 -q
+z strmath
+vsc .
+cargo test
+cargo publish
+z nushell
+git add -A

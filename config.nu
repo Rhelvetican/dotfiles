@@ -768,8 +768,8 @@ alias up = nu E:/ODPy/update.nu
 alias lun = z "C:\\Users\\ASUS\\Pictures\\Lunacy\\Page 1"
 alias htui = hackernews_tui
 alias gl = nu C:\Users\ASUS\AppData\Roaming\nushell\git.nu
+alias file = start .
+alias gfp = git format-patch:
 
 use ~/.cache/starship/init.nu
 source ~/.cache/zoxide/.zoxide.nu
-
-z ~
