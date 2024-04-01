@@ -2474,3 +2474,5 @@ history | get command | each { |cmd| | split words } | where ( $it | is-not-empt
 history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0} | histogram  | range ..15
 history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0} | histogram | sort-by count | range ..15
 history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0} | histogram | sort-by count --reverse | range ..15
+cfreg
+cfr

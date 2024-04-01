@@ -15,3 +15,4 @@ history
     | histogram
     | sort-by count --reverse
     | range ..15
+    | select value count
