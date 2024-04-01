@@ -2173,3 +2173,304 @@ cargo test
 cargo publish
 z nushell
 git add -A
+gitui
+cls
+cargo publish
+cargo test
+cargo release version patch --execute
+cargo publish
+cargo release version minor --execute
+git add -A
+z F:/
+cargo init complex_num --lib
+z complex_num
+winget install Icons8.Lunacy
+suc'<\n>'
+suc
+scoop install nerd-fonts/Monaspace-NF-Propo
+cls
+z strmath
+cargo install cargo-shuttle
+cargo shuttle help
+cargo shuttle login
+cls
+cargo shuttle init
+z F:/rhelv-proj
+ls
+z F:/
+git clone https://github.com/be5invis/Iosevka
+z odpy
+nu update.nu
+z E:/ODPy
+nu update.nu
+z F:/iosevka
+z F:/
+ls
+z E:/
+ls
+z F:/
+pip install uv --upgrade
+pip install argparse
+pip install fontforge
+pip install font-forge
+pip install python-fontforge
+cls
+fontforge
+scoop install fontforge
+./font-patcher
+z font-patcher
+z E:/
+z font-patcher
+ls
+./font-patcher ../iosevka
+fontforge -script font-patcher ../iosevka
+fontforge -script font-patcher E:\iosevka\IosevkaSS14-ThinItalic.ttf E:\iosevka\IosevkaSS14-ThinOblique.ttf E:\iosevka\IosevkaSS14-Bold.ttf E:\iosevka\IosevkaSS14-BoldItalic.ttf E:\iosevka\IosevkaSS14-BoldOblique.ttf E:\iosevka\IosevkaSS14-Extended.ttf E:\iosevka\IosevkaSS14-ExtendedBold.ttf E:\iosevka\IosevkaSS14-ExtendedBoldItalic.ttf E:\iosevka\IosevkaSS14-ExtendedBoldOblique.ttf E:\iosevka\IosevkaSS14-ExtendedExtraBold.ttf E:\iosevka\IosevkaSS14-ExtendedExtraBoldItalic.ttf E:\iosevka\IosevkaSS14-ExtendedExtraBoldOblique.ttf E:\iosevka\IosevkaSS14-ExtendedExtraLight.ttf E:\iosevka\IosevkaSS14-ExtendedExtraLightItalic.ttf E:\iosevka\IosevkaSS14-ExtendedExtraLightOblique.ttf E:\iosevka\IosevkaSS14-ExtendedHeavy.ttf E:\iosevka\IosevkaSS14-ExtendedHeavyItalic.ttf E:\iosevka\IosevkaSS14-ExtendedHeavyOblique.ttf E:\iosevka\IosevkaSS14-ExtendedItalic.ttf E:\iosevka\IosevkaSS14-ExtendedLight.ttf E:\iosevka\IosevkaSS14-ExtendedLightItalic.ttf E:\iosevka\IosevkaSS14-ExtendedLightOblique.ttf E:\iosevka\IosevkaSS14-ExtendedMedium.ttf E:\iosevka\IosevkaSS14-ExtendedMediumItalic.ttf E:\iosevka\IosevkaSS14-ExtendedMediumOblique.ttf E:\iosevka\IosevkaSS14-ExtendedOblique.ttf E:\iosevka\IosevkaSS14-ExtendedSemiBold.ttf E:\iosevka\IosevkaSS14-ExtendedSemiBoldItalic.ttf E:\iosevka\IosevkaSS14-ExtendedSemiBoldOblique.ttf E:\iosevka\IosevkaSS14-ExtendedThin.ttf E:\iosevka\IosevkaSS14-ExtendedThinItalic.ttf E:\iosevka\IosevkaSS14-ExtendedThinOblique.ttf E:\iosevka\IosevkaSS14-ExtraBold.ttf E:\iosevka\IosevkaSS14-ExtraBoldItalic.ttf E:\iosevka\IosevkaSS14-ExtraBoldOblique.ttf E:\iosevka\IosevkaSS14-ExtraLight.ttf E:\iosevka\IosevkaSS14-ExtraLightItalic.ttf E:\iosevka\IosevkaSS14-ExtraLightOblique.ttf E:\iosevka\IosevkaSS14-Heavy.ttf E:\iosevka\IosevkaSS14-HeavyItalic.ttf E:\iosevka\IosevkaSS14-HeavyOblique.ttf E:\iosevka\IosevkaSS14-Italic.ttf E:\iosevka\IosevkaSS14-Light.ttf E:\iosevka\IosevkaSS14-LightItalic.ttf E:\iosevka\IosevkaSS14-LightOblique.ttf E:\iosevka\IosevkaSS14-Medium.ttf E:\iosevka\IosevkaSS14-MediumItalic.ttf E:\iosevka\IosevkaSS14-MediumOblique.ttf E:\iosevka\IosevkaSS14-Oblique.ttf E:\iosevka\IosevkaSS14-Regular.ttf E:\iosevka\IosevkaSS14-SemiBold.ttf E:\iosevka\IosevkaSS14-SemiBoldItalic.ttf E:\iosevka\IosevkaSS14-SemiBoldOblique.ttf E:\iosevka\IosevkaSS14-Thin.ttf 
+vsc .
+z font-patcher
+fontforge -script font-patcher --help
+python patch.py
+suc
+cargo install rqbit
+rqbit
+suc
+z F:/
+cargo init img_combinator
+z img_combinator
+vsc .
+suc
+rustup update stable
+suc
+cargo build -r
+suc
+z ..
+cargo init img_resizer
+z img_resizer
+z pixelizer
+bat Cargo.toml
+z src
+ls
+cargo run
+z img_combinator
+start .
+cargo build -r
+z img_combinator
+cargo build -r
+suc
+z img_combinator
+cargo rr
+vsc .
+cargo rr
+z img_combinator
+cargo rr
+z img_combinator
+cargo rr
+ls
+start .
+z img_combinator
+cargo br
+cargo build -r
+ls
+start .
+cargo build -r
+start .
+cargo rr
+ls
+start .
+z img_combinator
+cargo build -r
+cargo release version minor --execute
+gitui
+cargo rr
+git add -A
+git commit -m "bump patch version"
+cargo rr
+ls
+start .
+cargo rr
+ls
+start .
+suc
+cla
+cls
+z ~
+suc
+scoop install mdbook
+cls
+suc
+scoop install git-town
+suc
+rustup --help
+rustup toolchain -h
+suc
+scoop install main/tup
+cls
+52*400
+echo 52*420
+= 52&400
+let a = 52*400 | echo a
+cls
+= (1 + 2) * 3
+3 * 8
+42 * 500
+z F:/
+z types
+cargo init exp
+z exp
+z strmath
+cargo publish --help
+cargo publish 0.3.0
+cargo publish
+z odpy
+git add -A
+cargo publish
+cargo test --help
+cargo test --all-features
+cargo publish --all-features
+cargo test --all-features
+git add -A
+cargo test --all-features
+gitui
+cls
+cargo publish --all-features
+suc
+z f:/
+cargo init ret
+z ret
+cargo test --all-features
+suc
+pip install uv --upgrade
+z odpy
+nu update.nu
+git pull
+git fetch
+suc
+z odpy
+vsc .
+z downloads
+curl -XGET https://pixelos.net/Images/logo.svg
+ls
+curl -XGET https://pixelos.net/Images/logo.svg | save -f logo.svg
+start .
+z downloads
+start .
+z f
+z f:/
+cargo init rub
+z rub
+z odpy
+suc
+vckpg
+scoop install vcpkg
+vcpkg install llvm opencv4[contrib,nonfree]
+vcpkg update
+git pull
+vcpkg install llvm opencv4[contrib,nonfree]
+z F:/
+cls
+vcpkg install llvm opencv4[contrib,nonfree]
+vcpkg install llvm
+scoop install opencv
+choco install opencv
+cls
+admin
+sudo
+sudo -V
+cls
+sudo suc
+suc
+scoop install tokei
+z odpy
+tokei
+onefetch
+git add -A
+git pull
+git commit -m "bump patch version"
+suc
+z strmath
+vsc .
+cargo test --all-features
+cargo update patch
+cargo update 
+cargo update --help
+cargo release version minor --execute
+cargo release version patch --execute
+cargo publish --all-features
+cargo test --all-features
+cargo release version patch --execute
+cargo publish --all-features
+cargo test --all-features
+cargo publish --all-features
+git push --tags
+cargo publish --all-features
+cargo yank 0.4.4
+cargo yank --version 0.4.4
+cls
+history
+history | awk '{print $2}' | sort | uniq -c | sort -nr | head -10
+coreutils ls
+coreutils awk
+coreutils --help
+cargo install coreutils
+coreutils --help
+cls
+history
+history | uniq
+history | uniq | histogram
+history | uniq | histogram command
+cls
+history | get command
+history | get command | each {|cmd| split words}
+history | get command | each {|cmd| split words | collect }
+history | get command | each {|cmd| split words | collect {} }
+cls
+history | get command | each {|cmd| split words | collect {} }
+history | get command | each {|cmd| split words | collect {|t| $t.0} }
+history | get command | each {|cmd| split words | collect {|t| $t} }
+history | get command | each {|cmd| split words | collect {|t| $t.0} }
+history | get command | each {|cmd| parse "{command} {arguments}" | get command} }
+history | get command | each {|cmd| parse "{command} {arguments}" | get command} 
+history | get command | each {|cmd| parse "{command} {arguments}" | get command} | histogram
+history | get command | each {|cmd| parse "{command} {arguments}" | get command} | range 20
+history | get command | each {|cmd| parse "{command} {arguments}" | get command} | range ..20
+history | get command | each {|cmd| parse "{cmd} {arguments}" | get cmd} | range ..20 | each {|cmd| if $cmd.if-not-empty { $cmd}}
+history | get command | each {|cmd| parse "{cmd} {arguments}" | get cmd} | range ..20 | each {|cmd| if $cmd | is-not-empty {} }
+history | get command | each {|cmd| parse "{cmd} {arguments}" | get cmd} | range ..20 |<\n>rand
+cls
+history | get command | each {|cmd| parse "{cmd} {arguments}" | get cmd} | range ..20
+explorer
+history | get command | each {|cmd| split words | get 0} | range ..20
+history | get command | each {|cmd| split words | get 0} | range ..20 | histogram 1
+history | get command | each {|cmd| split words | get 0} | range ..20 | histogram 0
+history | get command | each {|cmd| split words | get 0} | range ..20 | histogram 
+history | get command | each {|cmd| split words | get 0} | histogram 
+history | get command | each {|cmd| split words | is-not-empty | get 0} | histogram 
+history | get command | each {|cmd| split words | get 0} | histogram 
+history | get command | each {|cmd| split words } | each {|cmd| is-not-empty}
+history | get command | each {|cmd| split words } | histogram
+history | get command | each {|cmd| split words } | where ($it | is-not-empty) | histogram
+history | get command | each {|cmd| split words } | where ($it | is-not-empty) | range ..500
+cls
+history | get command | each {|cmd| split words } | where ($it | is-not-empty) | get 0 | range ..500
+history | get command | each {|cmd| split words } | where ($it | is-not-empty) | collect 0 | range ..500
+history | get command | each {|cmd| split words | where ($it | is-not-empty) | get 0} | histogram 
+history | get command | each {|cmd| split words | where ($it | is-not-empty)} | histogram 
+history | get command | each {|cmd| split words | where ($it | is-not-empty)}
+history | get command | each {|cmd| split words | where ($it | is-not-empty) | get 0}
+history | get command | each {|cmd| split words | where ($it | is-not-empty)} | get 0
+history | get command | each {|cmd| split words | where ($it | is-not-empty)} | each {|cmd| get 0}
+history | get command | each {|cmd| split words | where ( $it | is-not-empty ) } | each {|cmd| get 0}
+cls
+history | get command | each {|cmd| split words | where ( $it | is-not-empty ) } | each {|cmd| where ( $it | is-empty)}
+history | get command | each {|cmd| split words | where ( $it | is-not-empty ) }
+history | get command | each { |cmd| | split words | where ( $it | is-not-empty ) }
+history | get command | each { |cmd| | split words } | where ( $it | is-not-empty)
+history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0}
+history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0} | histogram
+history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0} | histogram | range ..15
+z nushell
+cls
+vsc .
+history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0} | histogram | sort-by n | range ..15
+history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0} | histogram  | range ..15
+history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0} | histogram | sort-by count | range ..15
+history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0} | histogram | sort-by count --reverse | range ..15
