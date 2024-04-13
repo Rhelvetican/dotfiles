@@ -761,14 +761,16 @@ $env.config = {
     ]
 }
 
-alias odpy = cd E:/ODPy
 alias vsc = code -r --no-sandbox
 alias suc = nu C:\Users\ASUS\AppData\Roaming\nushell\update_scoop.nu
 alias up = nu E:/ODPy/update.nu
-alias lun = z "C:\\Users\\ASUS\\Pictures\\Lunacy\\Page 1"
 alias htui = hackernews_tui
 alias gl = nu C:\Users\ASUS\AppData\Roaming\nushell\git.nu
 alias file = start .
+alias cr = cargo run
+alias cb = cargo build
+alias crr = cargo run --release
+alias cbr = cargo build --release
 alias cfr = nu C:\Users\ASUS\AppData\Roaming\nushell\cmd_freq.nu
 alias gfp = git format-patch:
 

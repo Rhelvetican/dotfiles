@@ -2476,3 +2476,696 @@ history | get command | each { |cmd| | split words } | where ( $it | is-not-empt
 history | get command | each { |cmd| | split words } | where ( $it | is-not-empty) | each { |cmd| get 0} | histogram | sort-by count --reverse | range ..15
 cfreg
 cfr
+z strmath
+z odpy
+git pull
+git add -A
+suc
+powershell -c "irm bun.sh/install.ps1 | iex"
+restart
+bun
+z odpy
+nu update.nu
+rustup update stable
+suc
+curl -XGET https://upload.wikimedia.org/wikipedia/commons/d/df/Eye_of_Ra_2.svg | save -f C:/Users/ASUS/Downloads/ra.svg
+z downloads
+ls
+start .
+z ~
+ls
+ls | get name
+ls | where ($it.name == dir) | get name
+ls | where ($it.type == dir) | get name
+ls | where ($it.type == dir) | get name | where ($it | str starts-with '.')
+cls
+ls | where ($it.type == dir) | get name | where ($it | str starts-with '.')
+z odpy
+ls | where ($it.type == dir) | get name | where ($it | str starts-with '.')
+ls | where ($it.type == file) | get name | where ($it | str ends-with '.py')
+git add -A
+gitui
+z F:/
+z doctorate_rs
+ls
+z doc_rs
+z ..
+ls
+z DocRS
+ls
+vsc .
+z F:/
+ls
+rm -r DocRS
+rm -r DocTS
+rm -r DoctorateGUI
+z doctorate_rs
+ls
+git fetch
+git pull
+vsc .
+cargo run
+cargo fmt
+cls
+curl -XGET 127.0.0.1:8443/config/prod/official/network_config
+cargo run
+cls
+curl -XGET 127.0.0.1:8443/config/prod/official/network_config
+cargo run
+cls
+curl -XGET 127.0.0.1:8443/config/prod/official/remote_config
+curl -XGET 127.0.0.1:8443/config/prod/official/Android/version
+curl -XPOST 127.0.0.1:8443/crisisV2/getInfo
+cls
+cargo run
+curl -XPOST 127.0.0.1:8443/crisisV2/getInfo
+curl -XPOST 127.0.0.1:8443/crisisV2/battleStart
+cargo fmt
+curl -XGET 127.0.0.1:8443/config/prod/official/network_config
+cls
+curl -XGET 127.0.0.1:8443/config/prod/official/network_config
+cargo r
+z types
+z f:/
+cargo init json test
+cargo init jsontest
+z jsontest
+mkdir json
+cargo check
+z f:/
+mkdir Launcher
+z Launcher
+echo "# Standardized Launcher" | save -f README.md
+git init .
+gitui
+git remote add origin https://github.com/DoctorateRS/Launcher.git
+git push
+git branch -M main
+git push
+git push --set-upstream origin main
+z odpy
+vsc .
+z odpy
+z data/crisisV2
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc0.json | save -f legacy-cc0.json
+ls
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc1.json | save -f legacy-cc1.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc2.json | save -f legacy-cc2.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc3.json | save -f legacy-cc3.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc4.json | save -f legacy-cc4.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc5.json | save -f legacy-cc5.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc6.json | save -f legacy-cc6.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc7.json | save -f legacy-cc7.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc8.json | save -f legacy-cc8.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc9.json | save -f legacy-cc9.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc10.json | save -f legacy-cc10.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc11.json | save -f legacy-cc11.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-cc12.json | save -f legacy-cc12.json
+curl -XGET https://raw.githubusercontent.com/wfrwgrlc/ODPY/master/data/crisisV2/legacy-ccbeta.json | save -f legacy-ccbeta.json
+ls
+z public-data
+vsc .
+z doctorate_rs
+vsc .
+z public-data
+start .
+z public-data
+curl -XGET 127.0.0.1:8443/config/prod/official/network_config
+curl -XGET 127.0.0.1:8443/user/checkIn
+curl -XGET 127.0.0.1:8443/app/v1/config
+cargo run
+cls
+cargo build -r
+z doctorate_rs
+z target/release
+ls
+./doctorate-rs.exe
+cargo build -r
+curl -XGET 127.0.0.1:8443/app/v1/config
+curl -XGET 127.0.0.1:8443/app/v2
+cargo build -r
+cls
+curl -XGET 127.0.0.1:8443/app/v2
+curl -XGET 127.0.0.1:8443/app/v1/config
+curl -XPOST 127.0.0.1:8443/crisisV2/battleStart
+curl -V
+curl --header "Content-Type: application/json" --request POST --data '{"mapId": "crisis_v2_02-01", "runeSlots": ["node_49", "node_39"]}' 127.0.0.1:8443/crisisV2/battleStart
+cls
+curl --header "Content-Type: application/json" --request POST --data '{"mapId": "crisis_v2_02-01", "runeSlots": ["node_49", "node_39"]}' 127.0.0.1:8443/crisisV2/battleStart\
+curl --header "Content-Type: application/json" --request POST --data '{"mapId": "crisis_v2_02-01", "runeSlots": ["node_49", "node_39"]}' 127.0.0.1:8443/crisisV2/battleStart
+curl --header "Content-Type: application/json" --request POST 127.0.0.1:8443/crisisV2/battleFinish
+curl --request POST 127.0.0.1:8443/crisisV2/battleFinish
+cargo rr
+cls
+curl --request POST 127.0.0.1:8443/crisisV2/battleFinish
+cls
+cargo r
+curl --request POST 127.0.0.1:8443/crisisV2/battleFinish
+cargo r
+cls
+curl --request POST 127.0.0.1:8443/crisisV2/battleFinish
+cls
+cargo br
+cargo b -r
+curl --request POST 127.0.0.1:8443/crisisV2/battleFinish
+curl --header "Content-Type: application/json" --request POST --data '{"mapId": "crisis_v2_02-01", "runeSlots": ["node_49",]}' 127.0.0.1:8443/crisisV2/battleStart
+cls
+curl --header "Content-Type: application/json" --request POST --data '{<\n>    "mapId": "crisis_v2_02-01",<\n>    "runeSlots": [<\n>        "node_49",<\n>        "node_31",<\n>        "node_32",<\n>        "node_33",<\n>        "node_34",<\n>        "node_44",<\n>        "node_46",<\n>        "node_21",<\n>        "node_55",<\n>        "node_57",<\n>        "node_59",<\n>        "node_24",<\n>        "node_26",<\n>        "node_27",<\n>        "node_28",<\n>        "node_39",<\n>        "node_45",<\n>        "node_47",<\n>        "node_8",<\n>        "node_29",<\n>        "node_35",<\n>        "node_36",<\n>        "node_17",<\n>        "node_18",<\n>        "node_58",<\n>        "node_19",<\n>        "node_20",<\n>        "node_22",<\n>        "node_0",<\n>        "node_43",<\n>        "node_38",<\n>        "node_11",<\n>        "node_12",<\n>        "node_9",<\n>        "node_10",<\n>        "node_2",<\n>        "node_3",<\n>        "node_4",<\n>        "node_5"<\n>    ]<\n>}' 127.0.0.1:8443/crisisV2/battleStart
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish
+curl -XPOST 127.0.0.1:8443/account/syncData
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f f:/doctorate_rs/reply.json
+z doctorate_rs
+cargo b -r
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f f:/doctorate_rs/reply.json
+cargo r
+cls
+cargo r
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f f:/doctorate_rs/reply.json
+curl -XPOST 127.0.0.1:8443/account/syncData
+cargo r
+curl -XPOST 127.0.0.1:8443/config/prod/official/network_config
+curl -XGET 127.0.0.1:8443/config/prod/official/network_config
+cargo r
+cls
+cargo r
+cargo -b r
+z doctorate_rs
+z target/release
+start .
+cargo b -r
+z ../..
+git push --tags
+uv venv install json
+uv  install json
+uv pip install json
+start .
+z arkseed
+ls
+start .
+git add -A
+git push
+git pull
+git push --force
+gitui
+git commit -m "Genetics"
+git push --force
+z arkseed
+git remote add origin https://github.com/DoctorateRS/ARKSEED.git
+git remote origin
+git remote remove origin
+git remote add origin https://github.com/DoctorateRS/ARKSEED.git
+git push --force
+git push --set-upstream origin main
+git push --set-upstream origin main --force
+z arkseed
+vsc .
+git push --force
+scoop install nushell
+cargo r
+cls
+nu -V
+nu -v
+nu --help
+nu -v
+cfr
+suc
+z doctorate_rs
+tokei
+tokei --exclude **/*json
+tokei --exclude **/*.json
+tokei --exclude ./**/*.json
+cls
+tokei --exclude *.json
+tokei 
+tokei --exclude JSON
+z doctorate_rs
+onefetch
+cargo r
+z doctorate_rs
+open data/excel/activity_table.json
+open data/excel/activity_table.json | get "basicInfo"
+open data/excel/activity_table.json | get "basicInfo"cls
+cls
+open data/excel/activity_table.json | get "basicInfo" 
+open data/excel/activity_table.json | get "basicInfo" | where ($it.name | str ends-with "act")
+cls
+open data/excel/activity_table.json | get "basicInfo" | filter 
+open data/excel/activity_table.json | get "basicInfo" | describe
+open data/excel/activity_table.json | get "basicInfo" | filter ($it.key | str ends-with "side")
+open data/excel/activity_table.json | get "basicInfo" | where ($it.key | str ends-with "side")
+cls
+open data/excel/activity_table.json | get "basicInfo" 
+open data/excel/activity_table.json | get "basicInfo" | to nuon --indent 4 | save -f basicInfo.nuon
+ls
+open data/excel/activity_table.json | get "basicInfo" 
+open data/excel/activity_table.json | get "basicInfo" | where ($in.id | str ends-with "side")
+open data/excel/activity_table.json | get "basicInfo" | from json | where ($in.id | str ends-with "side")
+open data/excel/activity_table.json | get "basicInfo" | <\n>s
+cls
+open data/excel/activity_table.json | get "basicInfo" | items { |key, value| [where ($key | str ends-with "side")]}
+nu update_act.nu
+z doctorate_rs
+tokei
+z odpy
+tokei
+z doctorate_rs
+python cleanup.py
+python c.py
+cls
+z doctorate_rs
+ls
+nu update.nu
+uv venv
+nu update.nu
+z doctorate_rs
+tokei ./ --exlude *.json
+tokei ./ --exc\lude *.json
+tokei ./ --exclude *.json
+cls
+tokei ./ --exclude *.json
+tokei ./ --exclude *.json -o json
+tokei ./ --exclude *.json -o json | from json
+tokei ./ --exclude *.json -o json | from json | get rust
+tokei ./ --exclude *.json -o json | from json | get rust | get reports
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | get stats
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | get stats | select code comments
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | get stats | select code comments | sort-by code
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | sort-by stats
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | sort-by stats.code
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | sort-by stats code
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | sort-by stats
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | sort-by stats | to json | save -f stats.json
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | sort-by stats | to json --indenr 4 | save -f stats.json
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | sort-by stats | to json --indent 4 | save -f stats.json
+python txt.py
+z ..
+cargo init float
+z float
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/this_is_a_hash/name/
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/:this_is_a_hash/name/
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/hash_172/file_name
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/hash_172/file_name
+cargo run
+z F:/
+mkdir Test
+z Test
+cls
+curl -XGET https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat
+curl -XGET https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat --output config.dat
+ls
+curl -XGET https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat -I --output config.dat
+curl -XGET https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat --verbose --output config.dat
+ls
+z Test
+curl -XGET https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat --verbose --output config.dat
+curl -XGET https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat --HEADER --output config.dat
+curl -XGET https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat --HEAD --output config.dat
+curl --help
+curl --help category
+curl --help verbose
+cls
+z Test
+curl -XGET https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat -i --output config.dat
+curl -i -XGET https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat --output config.dat
+z
+ls
+z Test
+ls
+cls
+curl -s -o NUL -D - https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/common
+ls
+curl -s -o NUL -D - https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/common_config.dat
+curl -s -o NUL -D - https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat
+curl -s -o NUL -D - https://ak.hycdn.cn/assetbundle/official/Android/assets/24-03-29-14-33-44-5002d2/config_common.dat | save -f response.txt
+z odpy
+vsc .
+z F:/
+cargo init --lib --name json_utils
+cls
+z F:/
+cargo init --lib --name json_utils
+cargo init --lib json_utils
+cls
+z json_utils
+vsc .
+z json_utils
+ls
+start .
+cargo publish
+git remote add origin https://github.com/Rhelvetican/json_utils.git
+cls
+git remote add origin https://github.com/Rhelvetican/json_utils.git
+git init .
+cls
+ls
+rm -r .git
+ls
+rm -r .git
+git init .
+git add -A
+ls
+cls
+git remote add origin https://github.com/Rhelvetican/json_utils.git
+git commit -m "First Commit"
+git push --force
+git push --set-upstream origin main --force
+git push --set-upstream origin main
+git fetch
+git pull
+git push --set-upstream origin main
+ls
+git add -A
+git push --set-upstream origin main
+git push
+cls
+git add -A
+git commit -m "Typo Commit"
+git push
+cls
+cargo publish
+vsc .
+cargo publish
+cls
+z doctorate_rs
+mkdir dump
+z dump
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res.json
+cargo run
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+cls
+z dump
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+cargo run
+cls
+z dump
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+cargo run
+cls
+cargo run
+cls
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+cls
+cargo run
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+cls
+z dump
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+cargo run
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+cls
+cargo run
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+cargo run
+cls
+cargo run
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+z nushell
+ls
+vsc .
+z doctorate_rs
+vsc .
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f cc2_res_doc-rs.json
+z dump
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f nodes.json
+z odpy
+vsc .
+z dump
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f nodes_py.json
+open nodes_py.json
+open nodes_py.json | from json
+nodes_py.json | from json
+ls
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f nodes_py.json
+curl -XPOST 127.0.0.1:8443/debug/ccv2/nodes | save -f nodes_py.json
+z doctorate_rs
+ls
+z dump
+ls
+curl -XPOST 127.0.0.1:8443/debug/ccv2 | save -f nodes.json
+ls
+cr
+curl -XPOST 127.0.0.1:8443/debug/ccv2 | save -f nodes.json
+ls
+curl -XGET 127.0.0.1:8443/debug/ccv2 | save -f nodes.json
+ls
+curl -XGET 127.0.0.1:8443/debug/ccv2 | save -f nodes.json
+cr
+curl -XGET 127.0.0.1:8443/debug/ccv2 | save -f nodes.json
+cls
+cr
+curl -XGET 127.0.0.1:8443/debug/ccv2 | save -f nodes.json
+cr
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f res.json
+cls
+z dump
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f res.json
+cr
+cls
+z dump
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f res.json
+z f:/
+mkdir rsml
+z rsml
+vsc .
+z arkseed
+rm -r .github
+git add -A
+git commit -m "s"
+git revert
+git revert --continue
+gitui
+vsc .
+git fetch
+git pull
+z odpy
+z dump/cencrypted
+z dump/encrypted
+python decrypt.py
+cls
+python decrypt.py
+cls
+python decrypt.py
+cargo release version patch --execute
+z f:/
+cargo init br_utils
+z br_utils
+vsc .
+z encrypted
+python decrypt.py
+ls
+start .
+cr
+python status.py
+python key.py
+python key.py | save -f key.txt
+tokei
+tokei ./ --exclude *.json -o json | from json | get rust | get reports | sort-by stats | to json --indent 4 | save -f stats.json
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f res.json
+z dump
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f res.json
+cr
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f res2.json
+cls
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f res2.json
+cr
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish
+cr
+cls
+curl -XPOST 127.0.0.1:8443/crisisV2/battleFinish | save -f res2.json
+cls
+cr
+cls
+python status.py
+overlay use f:/TerraPS/.venv/Scripts/activate.nu
+cr
+cls
+cr
+cls
+adb kill-server
+z dump
+z doctorate_rs/dump
+z doctorate_rs dump
+z doctorate_rs
+z terraps
+cls
+z dump
+ls
+rm -r replay nodes.json res.json res2.json
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_rs.json
+cr
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_py.json
+z terraps dump
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_rs.json
+cr
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_rs.json
+cls
+z terraps dump
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_rs.json
+cr
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_rs.json
+cr
+cls
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_py.json
+python server/app.py
+cls
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_rs.json
+cr
+cls
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_py.json
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_rs.json
+cr
+z downloads
+ls
+start .
+z f:/
+cargo init phys
+z phys
+cargo install cargo-packager --locked
+cls
+cfr
+rustup update stable
+cls
+x
+z odpy
+nu update.nu
+git remote add origin https://github.com/Rhelvetican/json_utils.git
+cls
+git remote --help
+git remote set-url origin https://github.com/DoctorateRS/TerraPS.git
+cls
+suc
+cls
+z json_utils
+vsc .
+git add -A
+z json_utils
+git add -A
+git commit -m "0.2"
+git push
+cargo publish
+nu update.nu
+suc
+bun
+cls
+bun update
+bun
+bun upgrade
+cls
+scoop install nerd-fonts/Lilex-NF-Propo
+z terraps
+vsc .
+python status.py
+overlay use f:/TerraPS/.venv/Scripts/activate.nu
+cls
+cargo build -r -q
+z terraps dump
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_rs.json
+cr
+cls
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_py.json
+z terraps dump
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_py.json
+curl -XPOST 127.0.0.1:8443/account/syncData | save -f data_rs.json
+cr
+cls
+cr
+cargo build -r -q
+python status.py
+cargo build -r -q
+uv venv
+z terraps 
+uv venv
+cls
+ls
+rm -r .venv
+z terraps 
+rm -r .venv
+z terraps 
+uv venv
+uv venv install py7zr
+uv venv pip
+rm -r pip
+uv venv --help
+uv pip install py7zr
+uv pip install toml
+python package.py
+overlay use f:/TerraPS/.venv/Scripts/activate.nu
+python package.py
+nu build_n_package.nu
+nu build.nu
+overlay use f:/TerraPS/.venv/Scripts/activate.nu
+rustup help
+rustup toolchain
+rustup toolchain list
+rustup toolchain install stable
+z terraps 
+nu envsetup,nu
+nu envsetup.nu
+cls
+overlay use f:/TerraPS/.venv/Scripts/activate.nu
+z terraps dump
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/arts_ui_stage_hometheme_theme_hub.dat
+cr
+cls
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/hot_update_list.json
+ls
+cr
+cls
+cls'<\n>'
+cls
+z terraps dump
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/arts_ui_stage_hometheme_theme_hub.dat
+cr
+cls
+cr
+cls
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/arts_ui_stage_hometheme_theme_hub.dat
+cr
+cls
+z terraps
+cr
+cls
+z terraps dump
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/arts_ui_stage_hometheme_theme_hub.dat
+cr
+cls
+cr
+cls
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/arts_ui_stage_hometheme_theme_hub.dat
+cr
+cls
+cr
+cls
+z terraps
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/hot_update_list.json
+cr
+ls
+cls
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/hot_update_list.json
+cls
+cr
+cls
+nu build.nu
+cls
+overlay use f:/TerraPS/.venv/Scripts/activate.nu
+nu build.nu
+cls
+nu build.nu
+overlay use f:/TerraPS/.venv/Scripts/activate.nu
+z terraps dump
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/hot_update_list.json
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/lpack_v049.dat
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/lpack_v049.dat -o lpack_v049.dat
+ls
+curl -XGET 127.0.0.1:8443/assetbundle/official/Android/assets/24-04-09-18-51-30-130d51/arts_dynchars_char_2024_chyue_2.dat --output arts_dynchars_char_2024_chyue_2.dat
+ls
+cls
+cr
+cls
+z terraps
+nu build.nu
+z nushell
+vsc .
