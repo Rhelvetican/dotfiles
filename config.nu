@@ -773,6 +773,7 @@ alias crr = cargo run --release
 alias cbr = cargo build --release
 alias cfr = nu C:\Users\ASUS\AppData\Roaming\nushell\cmd_freq.nu
 alias gfp = git format-patch:
+alias java21 = C:\Users\ASUS\scoop\apps\microsoft21-jdk\21.0.3\bin\java.exe
 
 use ~/.cache/starship/init.nu
 source ~/.cache/zoxide/.zoxide.nu
