@@ -769,19 +769,7 @@ $env.config = {
     ]
 }
 
-alias vsc = code -r --no-sandbox
-alias suc = nu C:\Users\ASUS\AppData\Roaming\nushell\update_scoop.nu
-alias up = nu E:/ODPy/update.nu
-alias htui = hackernews_tui
-alias gl = nu C:\Users\ASUS\AppData\Roaming\nushell\git.nu
-alias file = start .
-alias cr = cargo run
-alias cb = cargo build
-alias crr = cargo run --release
-alias cbr = cargo build --release
-alias cfr = nu C:\Users\ASUS\AppData\Roaming\nushell\cmd_freq.nu
-alias gfp = git format-patch:
-alias java21 = C:\Users\ASUS\scoop\apps\microsoft21-jdk\21.0.3\bin\java.exe
+nu ~/AppData/Roaming/nushell/alias.nu
 
 use ~/.cache/starship/init.nu
 source ~/.cache/zoxide/.zoxide.nu
