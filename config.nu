@@ -12,9 +12,6 @@ let dark_theme = {
     leading_trailing_space_bg: { attr: n } # no fg, no bg, attr none effectively turns this off
     header: green_bold
     empty: blue
-    # Closures can be used to choose colors for specific values.
-    # The value (in this case, a bool) is piped into the closure.
-    # eg) {|| if $in { 'light_cyan' } else { 'light_gray' } }
     bool: light_cyan
     int: white
     filesize: cyan
@@ -226,7 +223,6 @@ $env.config = {
     }
 
     color_config: $dark_theme # if you want a more interesting theme, you can replace the empty record with `$dark_theme`, `$light_theme` or another custom record
-    use_grid_icons: true
     footer_mode: "25" # always, never, number_of_rows, auto
     float_precision: 2 # the precision for displaying floats in tables
     buffer_editor: "" # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.EDITOR and $env.VISUAL
@@ -241,7 +237,8 @@ $env.config = {
         osc133: true
         osc633: true
         reset_application_mode: true
-    } 
+    }
+
     render_right_prompt_on_last_line: false # true or false to enable or disable right prompt to be rendered on last line of the prompt.
     use_kitty_protocol: false # enables keyboard enhancement protocol implemented by kitty console, only if your terminal support this.
     highlight_resolved_externals: false # true enables highlighting of external commands in the repl resolved by which.
@@ -769,19 +766,31 @@ $env.config = {
     ]
 }
 
+def gitcm [msg: string, --push] {
+    if $push {
+        git.exe add -A;
+        git.exe commit -am $msg;
+        git.exe push;
+    } else {
+        git.exe add -A;
+        git.exe commit -am $msg;
+    }
+}
+
 alias vsc = code -r --no-sandbox
-alias suc = nu C:\Users\ASUS\AppData\Roaming\nushell\update_scoop.nu
-alias up = nu E:/ODPy/update.nu
-alias htui = hackernews_tui
-alias gl = nu C:\Users\ASUS\AppData\Roaming\nushell\git.nu
-alias file = start .
+
+alias suc = nu ~\AppData\Roaming\nushell\update_scoop.nu
+
+alias explorer = start .
+
 alias cr = cargo run
 alias cb = cargo build
 alias crr = cargo run --release
 alias cbr = cargo build --release
-alias cfr = nu C:\Users\ASUS\AppData\Roaming\nushell\cmd_freq.nu
-alias gfp = git format-patch:
-alias java21 = C:\Users\ASUS\scoop\apps\microsoft21-jdk\21.0.3\bin\java.exe
+
+alias nv = neovide
+
+alias astral = nu ~\AppData\Roaming\nushell\update_astral.nu
 
 use ~/.cache/starship/init.nu
 source ~/.cache/zoxide/.zoxide.nu

@@ -1,6 +1,4 @@
-# Nushell Environment Config File
-#
-# version = "0.88.1"
+
 
 def create_left_prompt [] {
     let home =  $nu.home-path
@@ -91,7 +89,7 @@ $env.NUPM_HOME = ($nu.default-config-dir | path join "nupm")
 # The default for this is $nu.default-config-dir/scripts
 $env.NU_LIB_DIRS = [
     ($nu.default-config-dir | path join 'scripts') # add <nushell-config-dir>/scripts
-    ($env.NUPM_HOME | path join "modules") 
+    ($env.NUPM_HOME | path join "modules")
 ]
 
 # Directories to search for plugin binaries when calling register
@@ -99,7 +97,6 @@ $env.NU_LIB_DIRS = [
 $env.NU_PLUGIN_DIRS = [
     ($nu.default-config-dir | path join 'plugins') # add <nushell-config-dir>/plugins
 ]
-
 
 
 # To add entries to PATH (on Windows you might use Path), you can use the following pattern:
@@ -110,6 +107,9 @@ $env.Path = (
         | prepend ($env.NUPM_HOME | path join "scripts")
         | uniq
 )
+
+$env.NUSHELL_CONFIG_DIR = ($nu.default-config-dir)
+$env.SHELL = "nu"
 
 overlay use C:\Users\ASUS\AppData\Roaming\nushell\nupm\modules\nupm\
 starship init nu | save -f ~/.cache/starship/init.nu
