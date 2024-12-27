@@ -111,6 +111,9 @@ $env.Path = (
 $env.NUSHELL_CONFIG_DIR = ($nu.default-config-dir)
 $env.SHELL = "nu"
 
+mkdir ~/.cache/pixi
+pixi completion --shell nushell | save -f ~/.cache/pixi/completions.nu
+
 overlay use C:\Users\ASUS\AppData\Roaming\nushell\nupm\modules\nupm\
 starship init nu | save -f ~/.cache/starship/init.nu
 zoxide init nushell | save -f ~/.cache/zoxide/.zoxide.nu

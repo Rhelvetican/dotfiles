@@ -6,6 +6,9 @@
 # https://www.nushell.sh/book/coloring_and_theming.html
 # And here is the theme collection
 # https://github.com/nushell/nu_scripts/tree/main/themes
+
+use ./alias.nu
+
 let dark_theme = {
     # color for nushell primitives
     separator: white
@@ -766,35 +769,6 @@ $env.config = {
     ]
 }
 
-def gitcm [msg: string, --push] {
-    if $push {
-        git.exe add -A;
-        git.exe commit -am $msg;
-        git.exe push;
-    } else {
-        git.exe add -A;
-        git.exe commit -am $msg;
-    }
-}
-
-def taplo_init [] {
-    cp C:\Users\ASUS\taplo\taplo.toml ./taplo.toml;
-}
-
-alias vsc = code -r --no-sandbox
-
-alias suc = nu ~\AppData\Roaming\nushell\update_scoop.nu
-
-alias explorer = start .
-
-alias cr = cargo run
-alias cb = cargo build
-alias crr = cargo run --release
-alias cbr = cargo build --release
-
-alias nv = neovide
-
-alias astral = nu ~\AppData\Roaming\nushell\update_astral.nu
-
+use ~/.cache/pixi/completions.nu 
 use ~/.cache/starship/init.nu
 source ~/.cache/zoxide/.zoxide.nu
