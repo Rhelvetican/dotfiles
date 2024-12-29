@@ -231,15 +231,9 @@ $env.config = {
     buffer_editor: "" # command that will be used to edit the current line buffer with ctrl+o, if unset fallback to $env.EDITOR and $env.VISUAL
     use_ansi_coloring: true
     bracketed_paste: true # enable bracketed paste, currently useless on windows
-    edit_mode: emacs # emacs, vi
+    edit_mode: vi # emacs, vi
     shell_integration: {
-        osc2: true
-        osc7: true
-        osc8: true
-        osc9_9: false
-        osc133: true
-        osc633: true
-        reset_application_mode: true
+        osc133: false
     }
 
     render_right_prompt_on_last_line: false # true or false to enable or disable right prompt to be rendered on last line of the prompt.
@@ -767,6 +761,43 @@ $env.config = {
             event: {edit: capitalizechar}
         }
     ]
+}
+
+alias vsc = code -r --no-sandbox
+
+alias suc = nu ~\AppData\Roaming\nushell\update_scoop.nu
+
+alias s = start 
+
+alias cr = cargo run
+alias cb = cargo build
+alias ct = cargo test
+alias crr = cargo run --release
+alias cbr = cargo build --release
+alias ctr = cargo test --release
+
+alias nv = neovide
+
+alias astral = nu ~\AppData\Roaming\nushell\update_astral.nu
+
+alias cf = clang-format
+nu ~/AppData/Roaming/nushell/alias.nu
+
+def taplo_init [] {
+    cp C:\Users\ASUS\taplo\taplo.toml ./taplo.toml;
+}
+
+def cland_default_config [] {
+    clang-format --style="{BasedOnStyle: llvm, IndentWidth: 4}" --dump-config | save -f .clang-format
+}
+
+def gitcm [msg: string, --push] {
+    git add -A;
+    git commit -am $msg;
+
+    if $push {
+        git push;
+    }
 }
 
 use ~/.cache/pixi/completions.nu 
