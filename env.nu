@@ -83,6 +83,7 @@ $env.ENV_CONVERSIONS = {
     }
 }
 
+$env.MASON_BIN = "C:\\Users\\ASUS\\AppData\\Local\\nvim-data\\mason\\bin"
 $env.NUPM_HOME = ($nu.default-config-dir | path join "nupm")
 
 # Directories to search for scripts when calling source or use
@@ -105,6 +106,7 @@ $env.Path = (
     $env.Path
         | split row (char esep)
         | prepend ($env.NUPM_HOME | path join "scripts")
+        | prepend ($env.MASON_BIN)
         | uniq
 )
 
@@ -114,6 +116,5 @@ $env.SHELL = "nu"
 mkdir ~/.cache/pixi
 pixi completion --shell nushell | save -f ~/.cache/pixi/completions.nu
 
-overlay use C:\Users\ASUS\AppData\Roaming\nushell\nupm\modules\nupm\
 starship init nu | save -f ~/.cache/starship/init.nu
 zoxide init nushell | save -f ~/.cache/zoxide/.zoxide.nu
