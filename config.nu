@@ -768,35 +768,6 @@ $env.config = {
     ]
 }
 
-alias vsc = code -r --no-sandbox
-
-alias suc = nu ~\AppData\Roaming\nushell\update_scoop.nu
-
-alias s = start 
-
-alias cr = cargo run
-alias cb = cargo build
-alias ct = cargo test
-alias crr = cargo run --release
-alias cbr = cargo build --release
-alias ctr = cargo test --release
-
-alias nv = neovide
-alias vi = nvim
-
-alias astral = nu ~\AppData\Roaming\nushell\update_astral.nu
-
-alias cf = clang-format
-nu ~/AppData/Roaming/nushell/alias.nu
-
-def taplo_init [] {
-    cp C:\Users\ASUS\taplo\taplo.toml ./taplo.toml;
-}
-
-def cland_default_config [] {
-    clang-format --style="{BasedOnStyle: llvm, IndentWidth: 4}" --dump-config | save -f .clang-format
-}
-
 def gitcm [msg: string, --push] {
     git add -A;
     git commit -am $msg;
@@ -816,6 +787,33 @@ def cg [name: string, --lib] {
     cd $name;
 }
 
+def hevc [video: string, output: string] {
+    ffmpeg -i $video -c:v libx265 $output
+}
+
 use ~/.cache/pixi/completions.nu 
 use ~/.cache/starship/init.nu
 source ~/.cache/zoxide/.zoxide.nu
+
+alias suc = nu ~\AppData\Roaming\nushell\update_scoop.nu
+
+alias s = start 
+
+alias cr = cargo run
+alias cb = cargo build
+alias ct = cargo test
+alias crr = cargo run --release
+alias cbr = cargo build --release
+alias ctr = cargo test --release
+
+alias astral = nu ~\AppData\Roaming\nushell\update_astral.nu
+
+alias cr = cargo run             
+alias cb = cargo build           
+alias ct = cargo test            
+alias crr = cargo run --release  
+alias cbr = cargo build --release
+alias ctr = cargo test --release 
+
+alias nv = neovide
+alias vi = nvim
